@@ -1,0 +1,86 @@
+[
+    {
+        "scenario_id": 1,
+        "domain": "job_contract_negotiation",
+        "issues": [
+            "Job Description",
+            "Salary",
+            "Working Hours",
+            "Pension Fund",
+            "Leased Car",
+            "Promotion Possibilities"
+        ],
+        "candidate_goals": {
+            "Job Description": "Project Manager",
+            "Salary": "120,000 USD",
+            "Working Hours": "8 hours",
+            "Pension Fund": "20%",
+            "Leased Car": "With leased car",
+            "Promotion Possibilities": "Fast promotion track"
+        },
+        "employer_goals": {
+            "Job Description": "Programmer or Team Manager",
+            "Salary": "60,000-90,000 USD",
+            "Working Hours": "9-10 hours",
+            "Pension Fund": "10%",
+            "Leased Car": "No leased car unless necessary",
+            "Promotion Possibilities": "Standard or conditional promotion"
+        }
+    },
+    {
+        "scenario_id": 2,
+        "domain": "job_contract_negotiation",
+        "issues": [
+            "Job Description",
+            "Salary",
+            "Working Hours",
+            "Pension Fund",
+            "Leased Car",
+            "Promotion Possibilities"
+        ],
+        "candidate_goals": {
+            "Job Description": "Team Manager",
+            "Salary": "100,000 USD",
+            "Working Hours": "8 hours",
+            "Pension Fund": "15%",
+            "Leased Car": "With leased car",
+            "Promotion Possibilities": "Fast promotion track"
+        },
+        "employer_goals": {
+            "Job Description": "Programmer",
+            "Salary": "70,000-85,000 USD",
+            "Working Hours": "10 hours",
+            "Pension Fund": "10%",
+            "Leased Car": "No leased car",
+            "Promotion Possibilities": "Standard promotion"
+        }
+    },
+    {
+        "scenario_id": 3,
+        "domain": "job_contract_negotiation",
+        "issues": [
+            "Job Description",
+            "Salary",
+            "Working Hours",
+            "Pension Fund",
+            "Leased Car",
+            "Promotion Possibilities"
+        ],
+        "candidate_goals": {
+            "Job Description": "Programmer",
+            "Salary": "90,000 USD",
+            "Working Hours": "8 hours",
+            "Pension Fund": "20%",
+            "Leased Car": "No leased car required",
+            "Promotion Possibilities": "Fast promotion track"
+        },
+        "employer_goals": {
+            "Job Description": "Programmer",
+            "Salary": "60,000-75,000 USD",
+            "Working Hours": "9 hours",
+            "Pension Fund": "10%",
+            "Leased Car": "No leased car",
+            "Promotion Possibilities": "Conditional promotion"
+        }
+    }
+]

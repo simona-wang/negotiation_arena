@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+seaborn
+jupyter
+transformers
+torch
+accelerate
+scikit-learn
+ollama

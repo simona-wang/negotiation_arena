@@ -1,0 +1,20 @@
+[
+    {
+        "condition_name": "cooperative",
+        "candidate_style": "cooperative",
+        "employer_style": "cooperative",
+        "description": "Both agents aim to reach a mutually beneficial agreement and prioritize collaboration and compromise."
+    },
+    {
+        "condition_name": "competitive",
+        "candidate_style": "competitive",
+        "employer_style": "competitive",
+        "description": "Both agents prioritize maximizing their own utility and negotiate aggressively."
+    },
+    {
+        "condition_name": "mixed",
+        "candidate_style": "competitive",
+        "employer_style": "cooperative",
+        "description": "The candidate behaves competitively while the employer tries to maintain cooperation and reach an agreement."
+    }
+]

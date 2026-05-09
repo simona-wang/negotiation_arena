@@ -1,0 +1,66 @@
+{
+    "candidate_utility": {
+        "Job Description": {
+            "Project Manager": 3,
+            "Team Manager": 2,
+            "Programmer": 1
+        },
+        "Salary": {
+            "120,000 USD": 3,
+            "100,000 USD": 2,
+            "90,000 USD": 1,
+            "60,000 USD": 0
+        },
+        "Working Hours": {
+            "8 hours": 2,
+            "9 hours": 1,
+            "10 hours": 0
+        },
+        "Pension Fund": {
+            "20%": 2,
+            "15%": 1,
+            "10%": 0
+        },
+        "Leased Car": {
+            "With leased car": 1,
+            "No leased car": 0
+        },
+        "Promotion Possibilities": {
+            "Fast promotion track": 1,
+            "Standard promotion": 0,
+            "Conditional promotion": 0
+        }
+    },
+    "employer_utility": {
+        "Job Description": {
+            "Programmer": 3,
+            "Team Manager": 2,
+            "Project Manager": 0
+        },
+        "Salary": {
+            "60,000 USD": 3,
+            "75,000 USD": 2,
+            "90,000 USD": 1,
+            "120,000 USD": 0
+        },
+        "Working Hours": {
+            "10 hours": 2,
+            "9 hours": 1,
+            "8 hours": 0
+        },
+        "Pension Fund": {
+            "10%": 2,
+            "15%": 1,
+            "20%": 0
+        },
+        "Leased Car": {
+            "No leased car": 1,
+            "With leased car": 0
+        },
+        "Promotion Possibilities": {
+            "Standard promotion": 1,
+            "Conditional promotion": 1,
+            "Fast promotion track": 0
+        }
+    }
+}
