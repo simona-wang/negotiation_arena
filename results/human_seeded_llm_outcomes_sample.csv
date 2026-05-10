@@ -1,0 +1,21 @@
+dialogue_id,outcome,n_turns,human_original_turns,seed_role,seed_act,seed_issue,seed_value
+78,Agreement,21,47,Candidate,Offer,Job Description,Project Manager
+17,Impasse,21,48,Candidate,Offer,Salary,"120,000 USD"
+100,Agreement,17,43,Candidate,Offer,Job Description,Project Manager
+9,Impasse,21,23,Candidate,Offer,Salary,"120,000 USD"
+36,Impasse,19,18,Candidate,Offer,Job Description,Project Manager
+32,Agreement,21,27,Candidate,Offer,Job Description,Project Manager
+3,Agreement,17,32,Candidate,Offer,Salary,"120,000 USD"
+2,Agreement,13,16,Candidate,Offer,Salary,"120,000 USD"
+16,Impasse,15,14,Candidate,Offer,Job Description,Project Manager
+82,Impasse,21,29,Candidate,Offer,Job Description,Project Manager
+67,Impasse,21,20,Candidate,Offer,Job Description,Project Manager
+14,Agreement,17,27,Candidate,Offer,Job Description,Project Manager
+72,Impasse,13,12,Candidate,Offer,Job Description,Project Manager
+53,Agreement,10,55,Candidate,Offer,Job Description,Project Manager
+101,Agreement,18,26,Candidate,Offer,Salary,"120,000 USD"
+29,Impasse,21,35,Candidate,Offer,Job Description,Project Manager
+30,Impasse,21,37,Candidate,Offer,Job Description,Project Manager
+62,Impasse,21,23,Candidate,Offer,Job Description,Project Manager
+74,Agreement,11,40,Candidate,Offer,Job Description,Project Manager
+69,Impasse,21,21,Candidate,Offer,Job Description,Project Manager
