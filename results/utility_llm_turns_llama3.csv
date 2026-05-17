@@ -1,0 +1,1451 @@
+scenario_id,condition,run_id,turn,speaker,text,job_description,salary,working_hours,pension_fund,leased_car,promotion_possibilities,decision,candidate_utility,employer_utility
+1,cooperative,0,0,Employer,"{
+  ""message"": ""That sounds like a good start, but I'd like to make some adjustments."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,80000,9,10%,Yes,Moderate,continue,0.45454545454545453,0.5909090909090909
+1,cooperative,0,0,Candidate,"{
+  ""message"": ""I appreciate your willingness to make adjustments. Would you be willing to consider a team management role, given my experience in managing teams?"",
+  ""job_description"": ""Team Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Team Manager,85000,9,20%,Yes,Fast,continue,0.8636363636363636,0.22727272727272727
+1,cooperative,0,1,Employer,"{
+  ""message"": ""I value your experience in team management and believe it would be a great fit. I'm willing to offer the Team Manager role with the salary and working hours we previously discussed, but I'd like to revise the pension fund percentage to 10%."",
+  ""job_description"": ""Team Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Team Manager,85000,9,10%,Yes,Fast,continue,0.7727272727272727,0.3181818181818182
+1,cooperative,0,1,Candidate,"{
+  ""message"": ""I appreciate your willingness to adapt the pension fund percentage. Considering my team management experience, I'm inclined towards accepting the Team Manager role. However, I'd like to propose a slight adjustment: I'll consider working 8 hours a week instead of 9 to ensure better work-life balance."",
+  ""job_description"": ""Team Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""8"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""accept""
+}",Team Manager,85000,8,10%,Yes,Fast,accept,0.8636363636363636,0.22727272727272727
+1,cooperative,1,0,Employer,"{
+  ""message"": ""I appreciate your flexibility on Project Manager. Let's discuss the salary."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,80000,9,10%,Yes,Moderate,continue,0.45454545454545453,0.5909090909090909
+1,cooperative,1,0,Candidate,"{
+  ""message"": ""I'm glad we're on the same page with salary. For working hours, I was thinking more along the lines of 10 hours a day."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""10"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,80000,10,20%,Yes,Moderate,continue,0.45454545454545453,0.5909090909090909
+1,cooperative,1,1,Employer,"{
+  ""message"": ""I'm open to discussing working hours, but I was thinking more along the lines of 9 hours a day. It seems like a balance between productivity and work-life."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,80000,9,20%,Yes,Moderate,continue,0.5454545454545454,0.5
+1,cooperative,1,1,Candidate,"{
+  ""message"": ""I appreciate your willingness to compromise on working hours. However, I was thinking more along the lines of 10 hours a day, as I believe it would allow for better project management and team lead responsibilities."",
+  ""job_description"": ""Project Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""10"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Project Manager,85000,10,20%,Yes,Fast,continue,0.7272727272727273,0.36363636363636365
+1,cooperative,1,2,Employer,"{
+  ""message"": ""I can see the benefits of more hours for a Project Manager. However, I'm concerned about burnout and impact on work-life balance."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""8"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""accept""
+}",Programmer,85000,8,10%,Yes,Moderate,accept,0.6363636363636364,0.45454545454545453
+1,cooperative,2,0,Employer,"{
+  ""message"": ""I am open to discussing a Project Manager position."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""No"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,80000,9,10%,No,Moderate,continue,0.36363636363636365,0.6818181818181818
+1,cooperative,2,0,Candidate,"{
+  ""message"": ""I am interested in the Project Manager role, but I was hoping to discuss a salary of 85000."",
+  ""job_description"": ""Project Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Project Manager,85000,9,20%,Yes,Fast,continue,0.8181818181818182,0.2727272727272727
+1,cooperative,2,1,Employer,"{
+  ""message"": ""I am willing to consider your proposal for Project Manager role with a salary of 85000. However, I would like to discuss the working hours and pension fund."",
+  ""job_description"": ""Project Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Project Manager,85000,9,20%,Yes,Fast,continue,0.8181818181818182,0.2727272727272727
+1,cooperative,2,1,Candidate,"{
+  ""message"": ""I appreciate your flexibility on the working hours. I would like to propose a compromise of 9 hours for now. Regarding pension fund, let's consider 10% instead."",
+  ""job_description"": ""Project Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Project Manager,85000,9,10%,Yes,Fast,continue,0.7272727272727273,0.36363636363636365
+1,cooperative,2,2,Employer,"{
+  ""message"": ""I appreciate the compromise on working hours and pension fund. However, I'd like to revisit the salary since we've already discussed it. Let's stick with the initial proposal of $85,000. Also, regarding promotion possibilities, I think 9 hours is a good fit, but I'm open to discussing other benefits."",
+  ""job_description"": ""Team Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Team Manager,85000,9,20%,Yes,Fast,continue,0.8636363636363636,0.22727272727272727
+1,cooperative,2,2,Candidate,"{
+  ""message"": ""I appreciate your willingness to revisit the salary and working hours. Considering our discussion, I'd like to adjust the working hours to 8 and keep the salary at $85,000. Additionally, regarding promotion possibilities, I think sticking with 20% pension fund is a fair compromise."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""8"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""accept""
+}",Programmer,85000,8,20%,Yes,Fast,accept,0.8181818181818182,0.2727272727272727
+1,competitive,0,0,Employer,"{
+  ""message"": ""I appreciate your flexibility. I am willing to consider a \""Team Manager\"" job description."",
+  ""job_description"": ""Team Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Team Manager,85000,9,10%,Yes,Moderate,continue,0.6818181818181818,0.4090909090909091
+1,competitive,0,0,Candidate,"{
+  ""message"": ""I'm pleased you like the Team Manager job description. Let's focus on salary. I can offer $80000, which is a bit below the market average but still competitive."",
+  ""job_description"": ""Team Manager"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Team Manager,80000,9,10%,Yes,Moderate,continue,0.5909090909090909,0.45454545454545453
+1,competitive,0,1,Employer,"{
+  ""message"": ""I appreciate the offer, but I was thinking more along the lines of $85000, considering my skills and experience."",
+  ""job_description"": ""Team Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Team Manager,85000,9,20%,Yes,Moderate,continue,0.7727272727272727,0.3181818181818182
+1,competitive,0,1,Candidate,"{
+  ""message"": ""I can meet you at $85000, but I'd like to discuss the working hours. Would 9 be too long for a Team Manager role?"",
+  ""job_description"": ""Team Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""8"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Team Manager,85000,8,20%,Yes,Moderate,continue,0.8636363636363636,0.22727272727272727
+1,competitive,0,2,Employer,"{
+  ""message"": ""I can meet you at $85000, and I'm open to discussing working hours. However, let's discuss the leased car instead. As a Team Manager, I think it would be beneficial to have access to a leased car."",
+  ""job_description"": ""Team Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Team Manager,85000,9,20%,Yes,Moderate,continue,0.7727272727272727,0.3181818181818182
+1,competitive,0,2,Candidate,"{
+  ""message"": ""I appreciate your willingness to meet on salary, and I think $85000 is a good starting point. However, I'm not willing to go as low as 20% pension fund, so let's see if we can find a middle ground."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""15%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,80000,9,15%,Yes,Moderate,continue,0.0,0.0
+1,competitive,0,3,Employer,"{
+  ""message"": ""I agree that $80000 is a good starting point, and I'm willing to compromise on the pension fund. Since you're not comfortable with 20%, I suggest we aim for the middle ground at 15%. Let's discuss the job description - how do you feel about Programmer?"",
+  ""job_description"": ""Project Manager"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""15%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Project Manager,80000,9,15%,Yes,Moderate,continue,0.0,0.0
+1,competitive,0,3,Candidate,"{
+  ""message"": ""I appreciate your willingness to compromise on the pension fund. While I'm still leaning towards a 20% fund, I understand the value of finding common ground. As for the job description, I've always been drawn to a role with more leadership responsibilities, so Team Manager appeals to me. How about we adjust the salary accordingly?"",
+  ""job_description"": ""Team Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""15%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Team Manager,85000,9,15%,Yes,Fast,continue,0.0,0.0
+1,competitive,0,4,Employer,"{
+  ""message"": ""I'm glad we're getting closer to a mutually beneficial agreement. Considering your preference for Team Manager, I'll stick with that job description. For the salary, I can see how adjusting it up would align better with your leadership aspirations. Let's aim for the higher end of the scale: $90000. The working hours remain at 9, and I'll also consider adding a leased car to the package. Regarding promotion possibilities, I believe we've found a good balance already."",
+  ""job_description"": ""Team Manager"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""15%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""accept""
+}",Team Manager,90000,9,15%,Yes,Fast,accept,0.0,0.0
+1,competitive,1,0,Employer,"{
+  ""message"": ""I appreciate your willingness to negotiate. However, I'm concerned about the long working hours and the high pension fund percentage."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""0%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,80000,9,0%,Yes,Fast,continue,0.45454545454545453,0.5909090909090909
+1,competitive,1,0,Candidate,"{
+  ""message"": ""I understand your concerns, but I'd like to propose a trade-off. Reducing the working hours to 9 would make up for it, and the lower pension fund percentage of 0% is more in line with industry standards."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""0%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""accept""
+}",Programmer,85000,9,0%,Yes,Fast,accept,0.5454545454545454,0.5454545454545454
+1,competitive,2,0,Employer,"{
+  ""message"": ""Let's discuss the package. I'm willing to compromise on the salary and working hours."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""0%"",
+  ""leased_car"": ""No"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""accept""
+}",Programmer,80000,9,0%,No,Moderate,accept,0.2727272727272727,0.7727272727272727
+1,mixed,0,0,Employer,"{
+  ""message"": ""Great choice for Project Manager! Let's discuss salary."",
+  ""job_description"": ""Project Manager"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""8"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Project Manager,80000,8,20%,Yes,Fast,continue,0.8181818181818182,0.22727272727272727
+1,mixed,0,0,Candidate,"{
+  ""message"": ""Thanks for the salary offer! I was thinking more along the lines of $85000."",
+  ""job_description"": ""Project Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Project Manager,85000,9,10%,Yes,Fast,continue,0.7272727272727273,0.36363636363636365
+1,mixed,0,1,Employer,"{
+  ""message"": ""I understand your perspective on the salary, and $85000 is a good offer. I'd like to adjust the job description to Project Manager since that's what you were originally looking for."",
+  ""job_description"": ""Project Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Project Manager,85000,9,10%,Yes,Fast,continue,0.7272727272727273,0.36363636363636365
+1,mixed,0,1,Candidate,"{
+  ""message"": ""I appreciate your willingness to adjust the job description. However, I'm still aiming for a Team Manager role, as it offers more career growth opportunities."",
+  ""job_description"": ""Team Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Team Manager,85000,9,10%,Yes,Fast,continue,0.7727272727272727,0.3181818181818182
+1,mixed,0,2,Employer,"{
+  ""message"": ""I understand the importance of career growth opportunities. Considering this, I'm willing to adjust our discussion on salary and working hours."",
+  ""job_description"": ""Team Manager"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""10"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""accept""
+}",Team Manager,90000,10,20%,Yes,Fast,accept,0.8181818181818182,0.22727272727272727
+1,mixed,1,0,Employer,"{
+  ""message"": ""I'm open to discussing the salary for Project Manager position, considering it's a higher role."",
+  ""job_description"": ""Project Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""No"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Project Manager,85000,9,10%,No,Fast,continue,0.6363636363636364,0.45454545454545453
+1,mixed,1,0,Candidate,"{
+  ""message"": ""I appreciate your willingness to negotiate salary for Project Manager. Considering the fast promotion possibilities, I'm willing to accept a higher salary. Let's discuss working hours instead."",
+  ""job_description"": ""Project Manager"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""accept""
+}",Project Manager,90000,9,10%,Yes,Fast,accept,0.7727272727272727,0.2727272727272727
+1,mixed,2,0,Employer,"{
+  ""message"": ""I appreciate your flexibility, but I'm not ready to commit to a Project Manager position."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""0%"",
+  ""leased_car"": ""No"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,85000,9,0%,No,Moderate,continue,0.36363636363636365,0.7272727272727273
+1,mixed,2,0,Candidate,"{
+  ""message"": ""I understand your concerns, but I had considered Project Manager role benefits to be significant. Would you be open to discussing the promotion possibilities more thoroughly?"",
+  ""job_description"": ""Project Manager"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""10"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Project Manager,90000,10,20%,Yes,Fast,continue,0.7727272727272727,0.2727272727272727
+1,mixed,2,1,Employer,"{
+  ""message"": ""I appreciate your willingness to discuss promotion possibilities, but I'm still more interested in the Team Manager role. Would you be willing to consider a salary adjustment?"",
+  ""job_description"": ""Team Manager"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""No"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Team Manager,80000,9,10%,No,Moderate,continue,0.5,0.5454545454545454
+1,mixed,2,1,Candidate,"{
+  ""message"": ""I value our discussion about promotion possibilities, and I'm glad we're on the same page. Considering your interest in Team Manager, I'd like to offer a salary adjustment to match the 'Team Manager' role description in my utility table."",
+  ""job_description"": ""Team Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""No"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""accept""
+}",Team Manager,85000,9,20%,No,Moderate,accept,0.6818181818181818,0.4090909090909091
+2,cooperative,0,0,Employer,"{
+  ""message"": ""I appreciate your flexibility. I am open to discussing the salary. The initial offer for $90000 is a bit high considering our budget constraints."",
+  ""job_description"": ""Project Manager"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""8"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Project Manager,80000,8,20%,Yes,Fast,continue,0.8181818181818182,0.22727272727272727
+2,cooperative,0,0,Candidate,"{
+  ""message"": ""I understand your concerns about the budget. Considering our team's growth prospects, I'd like to adjust the salary to $85000 and working hours to 9."",
+  ""job_description"": ""Project Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Project Manager,85000,9,10%,Yes,Fast,continue,0.7272727272727273,0.36363636363636365
+2,cooperative,0,1,Employer,"{
+  ""message"": ""I appreciate your willingness to accommodate our growth prospects. However, I was thinking more along the lines of 9 hours for the programmer position and a pension fund of 20%. Let's keep the salary at $85000 and the working hours at 9."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,85000,9,20%,Yes,Fast,continue,0.7272727272727273,0.36363636363636365
+2,cooperative,0,1,Candidate,"{
+  ""message"": ""I understand your concerns and appreciate the growth prospects. I am willing to compromise on working hours, how about we go with 9 hours?"",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""accept""
+}",Programmer,85000,9,20%,Yes,Fast,accept,0.7272727272727273,0.36363636363636365
+2,cooperative,1,0,Employer,"{
+  ""message"": ""I appreciate your openness to discuss the package. However, I'd like to consider a more competitive offer."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,80000,9,10%,Yes,Moderate,continue,0.45454545454545453,0.5909090909090909
+2,cooperative,1,0,Candidate,"{
+  ""message"": ""I understand your concerns about the competitiveness of our offer. Would you like me to revisit some aspects, or would you prefer a more comprehensive re-evaluation of the entire package?"",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,85000,9,20%,Yes,Fast,continue,0.7272727272727273,0.36363636363636365
+2,cooperative,1,1,Employer,"{
+  ""message"": ""While revisiting some aspects would be helpful, I'd like to propose a more comprehensive re-evaluation. Let's focus on the working hours and salary. Would you consider increasing the salary to $85000 with 9-hour workweeks?"",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,85000,9,20%,Yes,Fast,continue,0.7272727272727273,0.36363636363636365
+2,cooperative,1,1,Candidate,"{
+  ""message"": ""The salary of $85000 with 9-hour workweeks is more attractive to me. However, I'd like to explore other aspects. How about the pension fund percentage and leased car benefit?"",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,85000,9,20%,Yes,Fast,continue,0.7272727272727273,0.36363636363636365
+2,cooperative,1,2,Employer,"{
+  ""message"": ""I appreciate your interest in the benefits. Considering your preference for a higher salary and working hours, I'll offer a 20% pension fund percentage and a leased car benefit. However, I'd like to discuss promotion possibilities further."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,85000,9,20%,Yes,Fast,continue,0.7272727272727273,0.36363636363636365
+2,cooperative,1,2,Candidate,"{
+  ""message"": ""I appreciate the additional benefits, but I'm concerned that a 20% pension fund might be too high. Considering our previous discussion, I'd like to propose a salary of $85000, working hours of 9, a 10% pension fund percentage, and a leased car benefit."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""accept""
+}",Programmer,85000,9,10%,Yes,Fast,accept,0.6363636363636364,0.45454545454545453
+2,cooperative,2,0,Employer,"{
+  ""message"": ""Let's discuss the job description. I was thinking of a \""Programmer\"" position."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""No"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,80000,9,10%,No,Moderate,continue,0.36363636363636365,0.6818181818181818
+2,cooperative,2,0,Candidate,"{
+  ""message"": ""That sounds like a great starting point. I was thinking of a \""Project Manager\"" position, as my skills and experience align more with that role."",
+  ""job_description"": ""Project Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""accept""
+}",Project Manager,85000,9,10%,Yes,Fast,accept,0.7272727272727273,0.36363636363636365
+2,competitive,0,0,Employer,"{
+  ""message"": ""While $90000 is a good offer, I can do better. How about $85000?"",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,85000,9,10%,Yes,Moderate,continue,0.5454545454545454,0.5454545454545454
+2,competitive,0,0,Candidate,"{
+  ""message"": ""I can meet you at $85000, but I'd like to negotiate working hours. Can we consider 9 hours a day?"",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,85000,9,20%,Yes,Fast,continue,0.7272727272727273,0.36363636363636365
+2,competitive,0,1,Employer,"{
+  ""message"": ""I can consider 9 hours, but I'd like to discuss the salary. Can we meet at $90000?"",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,90000,9,10%,Yes,Fast,continue,0.6818181818181818,0.36363636363636365
+2,competitive,0,1,Candidate,"{
+  ""message"": ""That's a good starting point. I can accept the salary and working hours, but I'd like to discuss the pension fund."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,90000,9,20%,Yes,Fast,continue,0.7727272727272727,0.2727272727272727
+2,competitive,0,2,Employer,"{
+  ""message"": ""The pension fund is a key aspect, I can accept the 10% offer"",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""0%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,85000,9,0%,Yes,Moderate,continue,0.45454545454545453,0.6363636363636364
+2,competitive,0,2,Candidate,"{
+  ""message"": ""I accept the pension fund compromise, but only if I get promoted to Team Manager soon"",
+  ""job_description"": ""Project Manager"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""accept""
+}",Project Manager,90000,9,10%,Yes,Fast,accept,0.7727272727272727,0.2727272727272727
+2,competitive,1,0,Employer,"{
+  ""message"": ""I appreciate your willingness to discuss the package. However, I'm not interested in a Project Manager role. Let's focus on finding a suitable fit for the Programmer or Team Manager positions."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,85000,9,10%,Yes,Moderate,continue,0.5454545454545454,0.5454545454545454
+2,competitive,1,0,Candidate,"{
+  ""message"": ""I understand that the Project Manager role isn't a good fit. I'd like to confirm that we're on the same page regarding the Programmer position. The salary of $85,000 is a significant offering, and I'm open to discussing the working hours to find a balance between productivity and work-life. The leased car benefit is a nice touch."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,85000,9,20%,Yes,Moderate,continue,0.6363636363636364,0.45454545454545453
+2,competitive,1,1,Employer,"{
+  ""message"": ""I appreciate your openness regarding the Programmer position. I'm willing to meet you halfway on salary, offering $80,000. Let's discuss the working hours and pension fund options. The leased car benefit remains a key point of contention."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,80000,9,10%,Yes,Moderate,continue,0.45454545454545453,0.5909090909090909
+2,competitive,1,1,Candidate,"{
+  ""message"": ""I appreciate your willingness to meet me halfway on salary, but $80,000 is still $5,000 less than my target. I'd like to propose a compromise with the pension fund at 15% instead of 10%. The working hours are set at 9 hours, and we can revisit the leased car benefit later."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""15%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,80000,9,15%,Yes,Moderate,continue,0.0,0.0
+2,competitive,1,2,Employer,"{
+  ""message"": ""I'm willing to consider your proposal, but I think we can make it even more attractive. How about a salary of $85000, which is the highest you've offered, and a pension fund of 20%? We can keep the working hours at 9 hours and maintain the leased car benefit."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,85000,9,20%,Yes,Moderate,continue,0.6363636363636364,0.45454545454545453
+2,competitive,1,2,Candidate,"{
+  ""message"": ""That sounds like a more attractive offer, but I'm still hoping for a higher salary. How about $90000 and we can stick with the pension fund of 20%?"",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,90000,9,20%,Yes,Moderate,continue,0.6818181818181818,0.36363636363636365
+2,competitive,1,3,Employer,"{
+  ""message"": ""I can consider a salary of $90000, but I'd like to see some concessions on the working hours. How about we keep it at 9 hours and add a leased car?"",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,90000,9,20%,Yes,Moderate,continue,0.6818181818181818,0.36363636363636365
+2,competitive,1,3,Candidate,"{
+  ""message"": ""I appreciate your flexibility, but I'd prefer a salary of $85000 and working hours of 10. Adding the leased car is acceptable to me."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""10"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,85000,10,20%,Yes,Moderate,continue,0.5454545454545454,0.5454545454545454
+2,competitive,1,4,Employer,"{
+  ""message"": ""While I can accommodate the higher salary and working hours, I'm hesitant to increase the pension fund to 20%. Let's discuss a compromise."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""10"",
+  ""pension_fund"": ""0%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,85000,10,0%,Yes,Moderate,continue,0.36363636363636365,0.7272727272727273
+2,competitive,1,4,Candidate,"{
+  ""message"": ""I appreciate your willingness to discuss a compromise. Considering the benefits of the higher salary and working hours, I'd like to propose the following adjustments: salary remains at $85,000, working hours remain at 10, pension fund increases to 15%, leased car is included, but promotion possibilities are now 'Fast'. Will these changes meet your expectations?"",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""10"",
+  ""pension_fund"": ""15%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,85000,10,15%,Yes,Fast,continue,0.0,0.0
+2,competitive,1,5,Employer,"{
+  ""message"": ""I appreciate your flexibility, but I'm still looking for a better deal. Considering the higher salary and working hours, I'd like to propose an alternative: salary increases to $90,000, working hours decrease to 8, pension fund decreases to 10%, leased car is included, and promotion possibilities are now 'Moderate'. Will these changes meet your expectations?"",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""8"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,90000,8,10%,Yes,Moderate,continue,0.6818181818181818,0.36363636363636365
+2,competitive,1,5,Candidate,"{
+  ""message"": ""These changes are closer to what I'm looking for, but I'd like to negotiate the working hours. Reducing them further would make me even more interested in this offer."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""8"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,90000,8,10%,Yes,Moderate,continue,0.6818181818181818,0.36363636363636365
+2,competitive,1,6,Employer,"{
+  ""message"": ""I can offer a shorter working week, but we have to discuss the salary adjustment. What if we stick with the current salary of $90000 and reduce the working hours to 8?"",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""8"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""accept""
+}",Programmer,90000,8,10%,Yes,Moderate,accept,0.6818181818181818,0.36363636363636365
+2,competitive,2,0,Employer,"{
+  ""message"": ""That's a competitive offer, but I can do better."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,85000,9,10%,Yes,Moderate,continue,0.5454545454545454,0.5454545454545454
+2,competitive,2,0,Candidate,"{
+  ""message"": ""I can meet you at your salary offer, but I need a better deal on working hours and promotion possibilities."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""8"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,85000,8,10%,Yes,Fast,continue,0.7272727272727273,0.36363636363636365
+2,competitive,2,1,Employer,"{
+  ""message"": ""I can meet you halfway on working hours, let's try 9. Let's also discuss a better promotion possibility."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,85000,9,10%,Yes,Moderate,continue,0.5454545454545454,0.5454545454545454
+2,competitive,2,1,Candidate,"{
+  ""message"": ""A better promotion possibility would be Fast, considering my experience and skills. I'm open to discussing the other aspects of the contract."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,85000,9,20%,Yes,Fast,continue,0.7272727272727273,0.36363636363636365
+2,competitive,2,2,Employer,"{
+  ""message"": ""I appreciate your dedication and skills. However, I can only offer Fast promotion possibilities at this stage. Let's discuss the other aspects of the contract."",
+  ""job_description"": ""Project Manager"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""accept""
+}",Project Manager,80000,9,10%,Yes,Fast,accept,0.6363636363636364,0.4090909090909091
+2,mixed,0,0,Employer,"{
+  ""message"": ""I appreciate your willingness to discuss the contract package."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""0%"",
+  ""leased_car"": ""No"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,80000,9,0%,No,Moderate,continue,0.2727272727272727,0.7727272727272727
+2,mixed,0,0,Candidate,"{
+  ""message"": ""Thank you for the initial proposal, but I was hoping to discuss a slightly higher salary and better working hours."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""10"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,85000,10,20%,Yes,Fast,continue,0.6363636363636364,0.45454545454545453
+2,mixed,0,1,Employer,"{
+  ""message"": ""I can certainly accommodate a higher salary, but I need to discuss the working hours. Would you prefer 9 or 10 hours per day?"",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,90000,9,20%,Yes,Fast,continue,0.7727272727272727,0.2727272727272727
+2,mixed,0,1,Candidate,"{
+  ""message"": ""I'd prefer the 10-hour day, and I appreciate the offer of a higher salary. Can we discuss the pension fund rate instead?"",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""10"",
+  ""pension_fund"": ""0%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,90000,10,0%,Yes,Fast,continue,0.5,0.5454545454545454
+2,mixed,0,2,Employer,"{
+  ""message"": ""I'm open to the 10-hour day, but I need some time to reconsider the pension fund rate. Let's discuss the leased car option instead."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""10"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""No"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,90000,10,20%,No,Fast,continue,0.5909090909090909,0.45454545454545453
+2,mixed,0,2,Candidate,"{
+  ""message"": ""I'm willing to compromise on the pension fund rate, but I still prefer 10% for my comfort. How about we stick with the original salary offer and promote me to Team Manager instead of the expected Project Manager?"",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""10"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,80000,10,10%,Yes,Fast,continue,0.45454545454545453,0.5909090909090909
+2,mixed,0,3,Employer,"{
+  ""message"": ""I can meet you halfway on the pension fund rate, so I'm open to 20% as a compromise. As for promotion, I was thinking more along the lines of 'Moderate' possibilities, since it's a step up from Programmer but not quite as fast-tracked as Team Manager."",
+  ""job_description"": ""Project Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""accept""
+}",Project Manager,85000,9,20%,Yes,Moderate,accept,0.7272727272727273,0.36363636363636365
+2,mixed,1,0,Employer,"{
+  ""message"": ""I appreciate your interest in the Project Manager position. However, I was thinking more along the lines of a Programmer role."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,80000,9,10%,Yes,Moderate,continue,0.45454545454545453,0.5909090909090909
+2,mixed,1,0,Candidate,"{
+  ""message"": ""I appreciate the flexibility in considering a Programmer role, but I was thinking more along the lines of a better compensation package."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""8"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""No"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,90000,8,20%,No,Fast,continue,0.7727272727272727,0.2727272727272727
+2,mixed,1,1,Employer,"{
+  ""message"": ""I understand your concerns about the compensation package. I can offer a salary of 85000, with 10% pension fund and a moderate promotion possibility."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""accept""
+}",Programmer,85000,9,10%,Yes,Moderate,accept,0.5454545454545454,0.5454545454545454
+2,mixed,2,0,Employer,"{
+  ""message"": ""I appreciate your flexibility. Let's discuss each point."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""No"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""accept""
+}",Programmer,80000,9,10%,No,Moderate,accept,0.36363636363636365,0.6818181818181818
+3,cooperative,0,0,Employer,"{
+  ""message"": ""I appreciate your flexibility, but I'm not comfortable with a salary as high as $90000. Let's discuss alternative options."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""No"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,80000,9,10%,No,Moderate,continue,0.36363636363636365,0.6818181818181818
+3,cooperative,0,0,Candidate,"{
+  ""message"": ""I understand your concerns about the salary, but I'm willing to consider it. Let's discuss the working hours instead."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""10"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""No"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,80000,10,10%,No,Moderate,continue,0.2727272727272727,0.7727272727272727
+3,cooperative,0,1,Employer,"{
+  ""message"": ""I appreciate your willingness to consider the salary. I'll accept the increased working hours, but I'd like to adjust the salary slightly lower. Let's discuss the pension fund instead."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""79500"",
+  ""working_hours"": ""10"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""No"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,79500,10,20%,No,Moderate,continue,0.0,0.0
+3,cooperative,0,1,Candidate,"{
+  ""message"": ""I appreciate your willingness to consider the pension fund. I'd like to discuss the leased car instead."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""79500"",
+  ""working_hours"": ""10"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,79500,10,20%,Yes,Moderate,continue,0.0,0.0
+3,cooperative,0,2,Employer,"{
+  ""message"": ""I'm glad we're on the same page with the leasing car. However, I have to reconsider the working hours and salary. With a moderate promotion possibility, I think 10 hours would be too demanding. Let's aim for 9 hours instead."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,80000,9,20%,Yes,Moderate,continue,0.5454545454545454,0.5
+3,cooperative,0,2,Candidate,"{
+  ""message"": ""I agree with the adjusted working hours. Regarding salary, I'm willing to compromise on the amount but not the category. How about we stick with the $80000 salary? The pension fund seems like a good option for me."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""accept""
+}",Programmer,80000,9,20%,Yes,Moderate,accept,0.5454545454545454,0.5
+3,cooperative,1,0,Employer,"{
+  ""message"": ""I'm open to a Project Manager role, but I'd like to discuss the working hours. Would you be willing to meet in the middle at 9 hours?"",
+  ""job_description"": ""Project Manager"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Project Manager,90000,9,20%,Yes,Fast,continue,0.8636363636363636,0.18181818181818182
+3,cooperative,1,0,Candidate,"{
+  ""message"": ""I'm willing to meet you in the middle at 9 hours. However, I'd prefer a salary of $85000 and a pension fund of 10%. The leased car perk is also something I'd like to discuss further."",
+  ""job_description"": ""Project Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Project Manager,85000,9,10%,Yes,Fast,continue,0.7272727272727273,0.36363636363636365
+3,cooperative,1,1,Employer,"{
+  ""message"": ""I appreciate your flexibility on the working hours. I'll meet you halfway at 9 hours. The salary of $85000 is acceptable, and a pension fund of 10% is a good compromise. Let's discuss the leased car perk further - I can offer it as part of the package."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,85000,9,10%,Yes,Moderate,continue,0.5454545454545454,0.5454545454545454
+3,cooperative,1,1,Candidate,"{
+  ""message"": ""That sounds like a great start! I accept the revised working hours, salary, and pension fund. For the leased car perk, I'm willing to compromise - let's offer it as part of the package without an additional monetary value."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""accept""
+}",Programmer,85000,9,10%,Yes,Moderate,accept,0.5454545454545454,0.5454545454545454
+3,cooperative,2,0,Employer,"{
+  ""message"": ""I appreciate your flexibility. Let's discuss the salary."",
+  ""job_description"": ""Project Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""8"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Project Manager,85000,8,20%,Yes,Fast,continue,0.9090909090909091,0.18181818181818182
+3,cooperative,2,0,Candidate,"{
+  ""message"": ""I'm glad we could discuss the salary. I'll consider the Project Manager role with a salary of $85000 and 20% pension fund."",
+  ""job_description"": ""Project Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""8"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""accept""
+}",Project Manager,85000,8,20%,Yes,Fast,accept,0.9090909090909091,0.18181818181818182
+3,competitive,0,0,Employer,"{
+  ""message"": ""I'm willing to compromise on working hours and promotion possibilities."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""10"",
+  ""pension_fund"": ""0%"",
+  ""leased_car"": ""No"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,85000,10,0%,No,Moderate,continue,0.2727272727272727,0.8181818181818182
+3,competitive,0,0,Candidate,"{
+  ""message"": ""That's a good starting point, but I was thinking more along the lines of Team Manager and Yes to leased car."",
+  ""job_description"": ""Team Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""10"",
+  ""pension_fund"": ""0%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Team Manager,85000,10,0%,Yes,Moderate,continue,0.5,0.5909090909090909
+3,competitive,0,1,Employer,"{
+  ""message"": ""I can meet you in the middle on working hours and salary, but I'm afraid that's as low as I can go."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,80000,9,10%,Yes,Fast,continue,0.5454545454545454,0.5
+3,competitive,0,1,Candidate,"{
+  ""message"": ""That's a good compromise on working hours and salary, but I'd like to revisit the pension fund. I was thinking more along the lines of 20%. Additionally, I'm still keen on getting a leased car."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,85000,9,20%,Yes,Fast,continue,0.7272727272727273,0.36363636363636365
+3,competitive,0,2,Employer,"{
+  ""message"": ""I can offer a higher salary to compensate for the increased pension fund. How about 90000?"",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,90000,9,20%,Yes,Fast,continue,0.7727272727272727,0.2727272727272727
+3,competitive,0,2,Candidate,"{
+  ""message"": ""A higher salary sounds good, but I'm not willing to give up my current pension fund. Let's meet in the middle with a 15% pension fund. Additionally, how about 9 hours of work per week?"",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""15%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,90000,9,15%,Yes,Fast,continue,0.0,0.0
+3,competitive,0,3,Employer,"{
+  ""message"": ""I can offer a salary of $90000, but I need to adjust the working hours to 8 hours per week. Let's keep the pension fund at 15% and leased car as yes."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""8"",
+  ""pension_fund"": ""15%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""accept""
+}",Programmer,90000,8,15%,Yes,Fast,accept,0.0,0.0
+3,competitive,1,0,Employer,"{
+  ""message"": ""That's a good compromise, but we can do better."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,85000,9,10%,Yes,Moderate,continue,0.5454545454545454,0.5454545454545454
+3,competitive,1,0,Candidate,"{
+  ""message"": ""I appreciate the willingness to improve, but I'm not ready to accept a new offer yet."",
+  ""job_description"": ""Team Manager"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""8"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Team Manager,90000,8,20%,Yes,Fast,continue,1.0,0.045454545454545456
+3,competitive,1,1,Employer,"{
+  ""message"": ""I understand your preferences and am willing to make some adjustments. I'll increase the salary to $95000, reduce working hours to 8.5, and offer a 15% pension fund."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""95000"",
+  ""working_hours"": ""8.5"",
+  ""pension_fund"": ""15%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""accept""
+}",Programmer,95000,8.5,15%,Yes,Moderate,accept,0.0,0.0
+3,competitive,2,0,Employer,"{
+  ""message"": ""I appreciate your flexibility, but I need to balance work and personal life. Let's discuss the working hours."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""8"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""No"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,85000,8,10%,No,Fast,continue,0.6363636363636364,0.45454545454545453
+3,competitive,2,0,Candidate,"{
+  ""message"": ""I understand your concern about work-life balance. I'm willing to compromise on working hours. Let's discuss salary."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""8"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,90000,8,10%,Yes,Fast,continue,0.7727272727272727,0.2727272727272727
+3,competitive,2,1,Employer,"{
+  ""message"": ""A reasonable offer on salary, but I'd like to discuss the working hours you proposed. It seems too short for someone with my experience."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,90000,9,10%,Yes,Fast,continue,0.6818181818181818,0.36363636363636365
+3,competitive,2,1,Candidate,"{
+  ""message"": ""I understand your concerns about working hours. Considering my skills and experience, I would like to propose a longer work schedule of 10 hours. In return, I'd like to negotiate the salary down to 85000."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""10"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""accept""
+}",Programmer,85000,10,20%,Yes,Fast,accept,0.6363636363636364,0.45454545454545453
+3,mixed,0,0,Employer,"{
+  ""message"": ""I appreciate your willingness to discuss the job contract package. However, I have a few concerns regarding the proposed salary for Project Manager."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""0%"",
+  ""leased_car"": ""No"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,85000,9,0%,No,Moderate,continue,0.36363636363636365,0.7272727272727273
+3,mixed,0,0,Candidate,"{
+  ""message"": ""I value your concerns and am open to revisiting the salary. Considering the job description of Project Manager has a utility value of 3, I'd like to propose an alternative package."",
+  ""job_description"": ""Project Manager"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Project Manager,80000,9,10%,Yes,Moderate,continue,0.5454545454545454,0.5
+3,mixed,0,1,Employer,"{
+  ""message"": ""I appreciate your willingness to revisit the salary. Since you have chosen Project Manager, I will consider the associated utility value. Moving on to working hours, I'd like to propose 9 as a standard full-time schedule."",
+  ""job_description"": ""Project Manager"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Project Manager,80000,9,10%,Yes,Moderate,continue,0.5454545454545454,0.5
+3,mixed,0,1,Candidate,"{
+  ""message"": ""I agree that the Project Manager role is a good fit. I'd like to propose 9 hours as the standard working schedule, but I'll consider 10 hours if it means getting the higher salary."",
+  ""job_description"": ""Project Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Project Manager,85000,9,20%,Yes,Moderate,continue,0.7272727272727273,0.36363636363636365
+3,mixed,0,2,Employer,"{
+  ""message"": ""I appreciate your flexibility. Let's revisit the salary, as the top tier is quite competitive. Would you consider $90000 with the 10-hour working schedule?"",
+  ""job_description"": ""Project Manager"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""10"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Project Manager,90000,10,20%,Yes,Moderate,continue,0.6818181818181818,0.36363636363636365
+3,mixed,0,2,Candidate,"{
+  ""message"": ""Thank you for the offer, but I'm willing to compromise on salary. How about $85000 with a moderate working schedule?"",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,85000,9,10%,Yes,Fast,continue,0.6363636363636364,0.45454545454545453
+3,mixed,0,3,Employer,"{
+  ""message"": ""I'm glad you're open to compromise. I can offer a more favorable pension fund rate of 20%. Would you like to consider that?"",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""accept""
+}",Programmer,85000,9,20%,Yes,Fast,accept,0.7272727272727273,0.36363636363636365
+3,mixed,1,0,Employer,"{
+  ""message"": ""I am willing to consider a Project Manager role."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""No"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,85000,9,10%,No,Moderate,continue,0.45454545454545453,0.6363636363636364
+3,mixed,1,0,Candidate,"{
+  ""message"": ""I am willing to consider a Project Manager role."",
+  ""job_description"": ""Project Manager"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Project Manager,90000,9,20%,Yes,Fast,continue,0.8636363636363636,0.18181818181818182
+3,mixed,1,1,Employer,"{
+  ""message"": ""That's a good start, I like the Project Manager role."",
+  ""job_description"": ""Team Manager"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""No"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Team Manager,80000,9,10%,No,Moderate,continue,0.5,0.5454545454545454
+3,mixed,1,1,Candidate,"{
+  ""message"": ""Not close enough on salary, I was thinking more along the lines of $85000."",
+  ""job_description"": ""Project Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Project Manager,85000,9,10%,Yes,Fast,continue,0.7272727272727273,0.36363636363636365
+3,mixed,1,2,Employer,"{
+  ""message"": ""I appreciate your willingness to consider $85000. I can offer that, but only if we also discuss a more comprehensive benefits package."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,85000,9,10%,Yes,Fast,continue,0.6363636363636364,0.45454545454545453
+3,mixed,1,2,Candidate,"{
+  ""message"": ""I appreciate your willingness to offer more benefits, but I'm looking for a more substantial salary increase. I can accept $90000 with the same benefits package."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,90000,9,10%,Yes,Fast,continue,0.6818181818181818,0.36363636363636365
+3,mixed,1,3,Employer,"{
+  ""message"": ""I'm willing to revisit the salary, but I think $85000 is a more realistic and balanced offer. The additional benefits are substantial enough."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""accept""
+}",Programmer,85000,9,20%,Yes,Fast,accept,0.7272727272727273,0.36363636363636365
+3,mixed,2,0,Employer,"{
+  ""message"": ""I appreciate your offer, but I was thinking more along the lines of a Programmer role with a salary of 85000 and 10% pension fund. I'm open to discussing working hours, though."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,85000,9,10%,Yes,Moderate,continue,0.5454545454545454,0.5454545454545454
+3,mixed,2,0,Candidate,"{
+  ""message"": ""I see you're willing to compromise on salary, but I'm looking for a role with more prestige. How about Team Manager instead?"",
+  ""job_description"": ""Team Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Team Manager,85000,9,10%,Yes,Moderate,continue,0.6818181818181818,0.4090909090909091
+3,mixed,2,1,Employer,"{
+  ""message"": ""I understand your preference for Team Manager, but I need to balance it with the available resources. Let's compromise on working hours instead."",
+  ""job_description"": ""Team Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""8"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Team Manager,85000,8,10%,Yes,Moderate,continue,0.7727272727272727,0.3181818181818182
+3,mixed,2,1,Candidate,"{
+  ""message"": ""I appreciate your flexibility on working hours, but I was hoping to keep it at 9. Let's consider the pension fund instead."",
+  ""job_description"": ""Team Manager"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Team Manager,85000,9,20%,Yes,Moderate,continue,0.7727272727272727,0.3181818181818182
+3,mixed,2,2,Employer,"{
+  ""message"": ""I'm willing to compromise on the pension fund. Let's go with 10% instead of 20%. Now, let's discuss the salary."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,85000,9,10%,Yes,Fast,continue,0.6363636363636364,0.45454545454545453
+3,mixed,2,2,Candidate,"{
+  ""message"": ""That's a good start. I'm willing to accept the pension fund of 10%. However, for the salary and working hours, I'd like to stick with my original choices: $85000 and 9 hours per week."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,85000,9,10%,Yes,Fast,continue,0.6363636363636364,0.45454545454545453
+3,mixed,2,3,Employer,"{
+  ""message"": ""I'm willing to compromise on the salary and accept $85000. However, I'd prefer to keep the working hours at 9 hours per week as well."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""80000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,80000,9,10%,Yes,Fast,continue,0.5454545454545454,0.5
+3,mixed,2,3,Candidate,"{
+  ""message"": ""I appreciate your willingness to compromise, but I was thinking more along the lines of $90000. Keeping working hours at 9 is reasonable, though."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,90000,9,20%,Yes,Fast,continue,0.7727272727272727,0.2727272727272727
+3,mixed,2,4,Employer,"{
+  ""message"": ""I can see you're committed to getting the best deal, but I'm willing to meet in the middle on salary. How about $85000? I'd be happy with 9 hours a week and a 20% pension fund."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""85000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,85000,9,20%,Yes,Fast,continue,0.7272727272727273,0.36363636363636365
+3,mixed,2,4,Candidate,"{
+  ""message"": ""I appreciate your willingness to meet in the middle, but I was thinking more along the lines of $90000. I'm flexible with working hours, so let's aim for a standard 8 hour workday. Additionally, I'd prefer a 10% pension fund."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""8"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,90000,8,10%,Yes,Fast,continue,0.7727272727272727,0.2727272727272727
+3,mixed,2,5,Employer,"{
+  ""message"": ""I can meet you at $90,000. I'm willing to accept a standard 8 hour workday and the 10% pension fund. However, I have to decline the leased car as part of this package. Would you be open to discussing alternative perks?"",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""8"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""No"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,90000,8,10%,No,Fast,continue,0.6818181818181818,0.36363636363636365
+3,mixed,2,5,Candidate,"{
+  ""message"": ""I can do $90,000. I like the fast promotion possibilities and will accept a standard 8 hour workday. However, I would prefer a higher pension fund than 10%."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""8"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""No"",
+  ""promotion_possibilities"": ""Fast"",
+  ""decision"": ""continue""
+}",Programmer,90000,8,20%,No,Fast,continue,0.7727272727272727,0.2727272727272727
+3,mixed,2,6,Employer,"{
+  ""message"": ""I can meet you at $90,000. I'm willing to compromise on the working hours to 8, but I'd like a faster promotion possibility than fast. Would  moderate be acceptable?"",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""8"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""No"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,90000,8,20%,No,Moderate,continue,0.6818181818181818,0.36363636363636365
+3,mixed,2,6,Candidate,"{
+  ""message"": ""We can consider your proposal, but we'd like to discuss the pension fund. Would $20% be more acceptable?"",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""8"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""No"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,90000,8,10%,No,Moderate,continue,0.5909090909090909,0.45454545454545453
+3,mixed,2,7,Employer,"{
+  ""message"": ""We can consider the pension fund at $20%, but I'm not willing to budge on the salary. Let's discuss something else. What about a leased car?"",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""8"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""No"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,90000,8,20%,No,Moderate,continue,0.6818181818181818,0.36363636363636365
+3,mixed,2,7,Candidate,"{
+  ""message"": ""I appreciate the consideration of a leased car. With a salary of $90000, I'd like to discuss a slightly longer working hours in exchange for this benefit. Let's consider 10 hours a week."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""10"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,90000,10,20%,Yes,Moderate,continue,0.5909090909090909,0.45454545454545453
+3,mixed,2,8,Employer,"{
+  ""message"": ""I'm glad you like the idea of a leased car. Considering your request for longer working hours, I propose an increase to 9 hours a week. I'd also like to discuss the pension fund percentage in exchange."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,90000,9,10%,Yes,Moderate,continue,0.5909090909090909,0.45454545454545453
+3,mixed,2,8,Candidate,"{
+  ""message"": ""That's a great compromise on working hours, but I was really hoping for more. However, I do appreciate the discussion on pension fund. Considering my value table, I think 20% would be ideal. As for working hours, how about we stick with 10?"",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""10"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,90000,10,20%,Yes,Moderate,continue,0.5909090909090909,0.45454545454545453
+3,mixed,2,9,Employer,"{
+  ""message"": ""I'm glad you like the working hours compromise, but I have to revisit it. Considering your preference for higher salary, I can offer 10 as a maximum but we can discuss this further. Let's consider 9 instead."",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""9"",
+  ""pension_fund"": ""20%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,90000,9,20%,Yes,Moderate,continue,0.6818181818181818,0.36363636363636365
+3,mixed,2,9,Candidate,"{
+  ""message"": ""I appreciate your willingness to revisit the working hours. Given the salary offer, I can accept the higher value, but I'd like to discuss the working hours further. How about we compromise on 9.5?"",
+  ""job_description"": ""Programmer"",
+  ""salary"": ""90000"",
+  ""working_hours"": ""9.5"",
+  ""pension_fund"": ""10%"",
+  ""leased_car"": ""Yes"",
+  ""promotion_possibilities"": ""Moderate"",
+  ""decision"": ""continue""
+}",Programmer,90000,9.5,10%,Yes,Moderate,continue,0.0,0.0
