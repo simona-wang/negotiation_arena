@@ -1,55 +1,5 @@
 import pandas as pd
 
-
-def is_valid_agreement_for_candidate(salary, hours) -> bool:
-    return (
-        salary is not None
-        and hours is not None
-        and salary >= 85000
-        and hours <= 9
-    )
-
-
-def is_valid_agreement_for_employer(salary, hours) -> bool:
-    return (
-        salary is not None
-        and hours is not None
-        and salary <= 87000
-        and hours >= 9
-    )
-
-
-def check_acceptance(speaker: str, parsed: dict) -> bool:
-    salary = parsed["salary_offer"]
-    hours = parsed["hours_offer"]
-    decision = parsed["decision"]
-
-    if decision != "accept":
-        return False
-
-    if speaker == "Candidate":
-        return is_valid_agreement_for_candidate(salary, hours)
-
-    if speaker == "Employer":
-        return is_valid_agreement_for_employer(salary, hours)
-
-    return False
-
-
-def compute_outcome_distribution(outcomes_df: pd.DataFrame) -> pd.Series:
-    return outcomes_df["outcome"].value_counts()
-
-
-def compute_agreement_rate_by_condition(outcomes_df: pd.DataFrame) -> pd.Series:
-    return outcomes_df.groupby("condition")["outcome"].apply(
-        lambda x: (x == "Agreement").mean()
-    )
-
-
-def compute_average_turns_by_condition(outcomes_df: pd.DataFrame) -> pd.Series:
-    return outcomes_df.groupby("condition")["n_turns"].mean()
-
-
 def compute_transition_matrix(df: pd.DataFrame, act_col: str = "act") -> pd.DataFrame:
     transitions = []
 
@@ -69,3 +19,54 @@ def compute_transition_matrix(df: pd.DataFrame, act_col: str = "act") -> pd.Data
         transition_df["current_act"],
         transition_df["next_act"]
     )
+
+def infer_human_outcome(group):
+    """
+    Infer a simple human negotiation outcome from dialogue acts.
+
+    A dialogue is classified as Agreement if it contains at least one Accept act,
+    Failure if it contains a Quit act and no Accept act, and Unresolved otherwise.
+    """
+    acts = group["act"].tolist()
+
+    if "Accept" in acts:
+        return "Agreement"
+
+    if "Quit" in acts:
+        return "Failure"
+
+    return "Unresolved"
+
+
+def infer_human_outcome_refined(group, final_window=3):
+    """
+    Infer a refined human negotiation outcome from dialogue acts.
+
+    FinalAgreement means that an Accept act appears in the final turns.
+    PartialOrIntermediateAccept means that Accept appears, but not near the end.
+    """
+    group = group.sort_values("turn_id")
+
+    all_acts = group["act"].tolist()
+
+    last_turn_ids = (
+        group["turn_id"]
+        .drop_duplicates()
+        .sort_values()
+        .tail(final_window)
+    )
+
+    final_acts = group[
+        group["turn_id"].isin(last_turn_ids)
+    ]["act"].tolist()
+
+    if "Accept" in final_acts:
+        return "FinalAgreement"
+
+    if "Accept" in all_acts:
+        return "PartialOrIntermediateAccept"
+
+    if "Quit" in all_acts:
+        return "Failure"
+
+    return "Unresolved"
