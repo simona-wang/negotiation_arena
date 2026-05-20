@@ -78,6 +78,8 @@ results/
 ├── long_single_llama3_test_turns.csv
 └── long_single_llama3_test_outcome.csv
 
+```
+
 ## Research Question
 
 How do cooperative, competitive, and mixed negotiation styles influence the outcomes and dynamics of LLM-based multi-agent negotiations?
