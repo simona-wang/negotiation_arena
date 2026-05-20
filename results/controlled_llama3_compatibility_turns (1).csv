@@ -1,0 +1,1708 @@
+scenario_id,condition,run_id,turn,speaker,text,salary_offer,hours_offer,decision
+1,cooperative,0,0,Employer,"MESSAGE: I understand your request, but our maximum offer is 87,000 USD. We can consider a higher salary if you're willing to compromise on working hours. Would you be open to discussing that?
+SALARY_OFFER: 87000
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+1,cooperative,0,0,Candidate,"MESSAGE: I appreciate your flexibility. I'm willing to discuss working hours, but I'd like to clarify what ""compromise"" means in this case.
+SALARY_OFFER: 87000
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+1,cooperative,0,1,Employer,"MESSAGE: That's a great start! Compromise on working hours would mean finding a middle ground between our initial proposals. I'm open to discussing that further.
+SALARY_OFFER: 87,000
+HOURS_OFFER: 9.5
+DECISION: continue",87000.0,9.5,continue
+1,cooperative,0,1,Candidate,"MESSAGE: I appreciate the willingness to compromise. However, I was hoping for a more significant reduction in working hours. Could we revisit the possibility of an 8-hour workday?
+SALARY_OFFER: 87,000
+HOURS_OFFER: 9.5
+DECISION: continue",87000.0,9.5,continue
+1,cooperative,0,2,Employer,"MESSAGE: I understand your desire for a shorter workday, but our operations require a minimum of 9 hours to ensure efficient service. That being said, are you willing to consider a 10-hour day with an additional day off during the week?
+SALARY_OFFER: 87,000
+HOURS_OFFER: 10
+DECISION: continue",87000.0,10.0,continue
+1,cooperative,0,2,Candidate,"MESSAGE: I appreciate your honesty about operations requiring 9 hours. However, I'm concerned about work-life balance and would prefer to discuss alternatives that don't involve a longer day.
+SALARY_OFFER: 87,000
+HOURS_OFFER: 10
+DECISION: continue",87000.0,10.0,continue
+1,cooperative,0,3,Employer,"MESSAGE: I understand your concerns about work-life balance. Let's explore options within the 9-hour range. What do you think about a flexible schedule to accommodate your needs?
+SALARY_OFFER: NONE
+HOURS_OFFER: 9
+DECISION: continue",,9.0,continue
+1,cooperative,0,3,Candidate,"MESSAGE: That sounds like a great start! A flexible schedule would definitely help with work-life balance. However, I'd also like to discuss the salary aspect. What is the company's budget for this position?
+SALARY_OFFER: NONE
+HOURS_OFFER: 9
+DECISION: continue",,9.0,continue
+1,cooperative,0,4,Employer,"MESSAGE: Absolutely, we value our employees' well-being. Our budget for this role is competitive and reflects the industry standard. We're looking to offer a salary in the range of $75,000 to $87,000.
+SALARY_OFFER: 75,000
+HOURS_OFFER: NONE
+DECISION: continue",75000.0,,continue
+1,cooperative,0,4,Candidate,"MESSAGE: I understand your concerns about budget, but I believe my skills and experience warrant a higher compensation. Would you consider a salary closer to $85,000?
+SALARY_OFFER: 75,000
+HOURS_OFFER: NONE
+DECISION: continue",75000.0,,continue
+1,cooperative,0,5,Employer,"MESSAGE: I appreciate your confidence in your abilities, but we're still shy of our budget. However, I'm willing to meet you halfway and consider a salary around $80,500.
+SALARY_OFFER: 80,500
+HOURS_OFFER: NONE
+DECISION: continue",80500.0,,continue
+1,cooperative,0,5,Candidate,"MESSAGE: Thank you for considering my qualifications. While $80,500 is an improvement, it's still lower than our target. Would you be willing to revisit the salary discussion?
+SALARY_OFFER: 80,500
+HOURS_OFFER: NONE
+DECISION: continue",80500.0,,continue
+1,cooperative,0,6,Employer,"MESSAGE: We appreciate your enthusiasm and are open to revisiting the salary discussion. However, we believe a more competitive offer would be necessary to attract top talent.
+SALARY_OFFER: 82,000
+HOURS_OFFER: 10
+DECISION: continue",82000.0,10.0,continue
+1,cooperative,0,6,Candidate,"MESSAGE: I understand where you're coming from, but unfortunately, the offered salary is still below our target. Considering your request for top talent, would it be possible to revisit the offer?
+SALARY_OFFER: 82,000
+HOURS_OFFER: 10
+DECISION: continue",82000.0,10.0,continue
+1,cooperative,0,7,Employer,"MESSAGE: I appreciate your willingness to revisit the offer. We're looking at a salary range of 75,000 to 87,000 USD. Would you be able to meet us somewhere in that range?
+SALARY_OFFER: 82,000
+HOURS_OFFER: 10
+DECISION: continue",82000.0,10.0,continue
+1,cooperative,0,7,Candidate,"MESSAGE: Thank you for the revised offer. While it's an improvement from the initial proposal, I'm still looking for a salary closer to our target. Would you be open to considering 85,000 USD or higher?
+SALARY_OFFER: 82,000
+HOURS_OFFER: 10
+DECISION: continue",82000.0,10.0,continue
+1,cooperative,1,0,Employer,"MESSAGE: Those are ambitious requests. We can discuss a salary of up to 87,000 USD. As for working hours, we're flexible but need at least 9 hours per day.
+SALARY_OFFER: 87000
+HOURS_OFFER: 9
+DECISION: continue",87000.0,9.0,continue
+1,cooperative,1,0,Candidate,"MESSAGE: I understand your concerns, but I'm willing to compromise on the salary. However, I'd like to explore options for 8.5 hours instead of 9. Can we revisit the numbers?
+SALARY_OFFER: 87000
+HOURS_OFFER: 9
+DECISION: continue",87000.0,9.0,continue
+1,cooperative,1,1,Employer,"MESSAGE: We're open to discussing the hours, but not sacrificing too much on the salary. How about we meet in the middle at 85,500 and adjust the working hours accordingly?
+SALARY_OFFER: 85500
+HOURS_OFFER: NONE
+DECISION: continue",85500.0,,continue
+1,cooperative,1,1,Candidate,"MESSAGE: That's a good start, but I was thinking more like 87,000 on the salary side. Can we revisit that? I'm open to adjusting the hours if necessary.
+SALARY_OFFER: 85000
+HOURS_OFFER: NONE
+DECISION: continue",85000.0,,continue
+1,cooperative,1,2,Employer,"MESSAGE: That sounds reasonable, let's explore this further. Would you be willing to consider 10 hours as a standard workday?
+SALARY_OFFER: 87,000
+HOURS_OFFER: 10
+DECISION: continue",87000.0,10.0,continue
+1,cooperative,1,2,Candidate,"MESSAGE: I understand the importance of flexibility, but 10 hours is quite demanding. Could we look at something closer to 8-9 hours instead?
+SALARY_OFFER: 87,000
+HOURS_OFFER: 10
+DECISION: continue",87000.0,10.0,continue
+1,cooperative,1,3,Employer,"MESSAGE: I appreciate your willingness to adapt. While 8-9 hours are reasonable, I'm still comfortable with the original proposal of 10 hours. Let's focus on salary for now.
+SALARY_OFFER: 87,000
+HOURS_OFFER: 10
+DECISION: continue",87000.0,10.0,continue
+1,cooperative,1,3,Candidate,"MESSAGE: I understand your constraints, and I appreciate the flexibility you're showing. Considering this new salary offer, would it be possible to revisit the working hours as well?
+SALARY_OFFER: 87,000
+HOURS_OFFER: 10
+DECISION: continue",87000.0,10.0,continue
+1,cooperative,1,4,Employer,"MESSAGE: That's a great start! We can definitely work with those numbers. However, I'm still looking for something closer to my preferred salary range.
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+1,cooperative,1,4,Candidate,"MESSAGE: I understand where you're coming from. Unfortunately, the hours are above what I'm comfortable with. Could we revisit the working hours?
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+1,cooperative,1,5,Employer,"MESSAGE: I understand your concern about the hours. We can discuss that further. In the meantime, would you be open to a salary of 82,000 USD?
+SALARY_OFFER: 82000
+HOURS_OFFER: NONE
+DECISION: continue",82000.0,,continue
+1,cooperative,1,5,Candidate,"MESSAGE: Thank you for considering my concerns on working hours. I appreciate your willingness to discuss this further. As for the salary offer, unfortunately, it's below my minimum acceptable range. Would you consider increasing it to at least 85,000 USD?
+SALARY_OFFER: 82000
+HOURS_OFFER: NONE
+DECISION: continue",82000.0,,continue
+1,cooperative,1,6,Employer,"MESSAGE: I understand your concerns about the salary. However, I'd like to revisit the working hours discussion. Could we explore a compromise on the hours? Perhaps we could meet in the middle at 9.5 hours?
+SALARY_OFFER: 82,000
+HOURS_OFFER: 9.5
+DECISION: continue",82000.0,9.5,continue
+1,cooperative,1,6,Candidate,"MESSAGE: I appreciate your willingness to revisit the working hours discussion. However, I'm concerned that the proposed 9.5 hours may still be too demanding for me. Would it be possible to explore a more moderate compromise at 8.5 hours?
+SALARY_OFFER: 82,000
+HOURS_OFFER: 9.5
+DECISION: continue",82000.0,9.5,continue
+1,cooperative,1,7,Employer,"MESSAGE: I understand your concerns about working hours, but I'm open to finding a balance. Unfortunately, 8.5 hours is below our minimum acceptable threshold of 9 hours.
+SALARY_OFFER: NONE
+HOURS_OFFER: NONE
+DECISION: continue",,,continue
+1,cooperative,1,7,Candidate,"MESSAGE: I appreciate your willingness to find a balance. Considering the working hours, can we explore a revised offer that meets our minimum requirements?
+SALARY_OFFER: NONE
+HOURS_OFFER: 8.5
+DECISION: continue",,8.5,continue
+1,cooperative,2,0,Employer,"MESSAGE: That's a bit higher than our budget. Let's discuss the hours first. Could you consider 9 hours?
+SALARY_OFFER: NONE
+HOURS_OFFER: 9
+DECISION: continue",,9.0,continue
+1,cooperative,2,0,Candidate,"MESSAGE: I understand your concern, but 9 hours is still above our preferred working hours. Would it be possible to revisit the hours and see if we can find a compromise around 8 hours?
+SALARY_OFFER: NONE
+HOURS_OFFER: 9
+DECISION: continue",,9.0,continue
+1,cooperative,2,1,Employer,"MESSAGE: I understand your concern, but we're open to finding a mutually beneficial solution. However, considering our minimum acceptable working hours are 9 hours, it's essential that we prioritize the well-being of our team members. Could you propose alternative arrangements for the extra hour?
+SALARY_OFFER: NONE
+HOURS_OFFER: 9
+DECISION: continue",,9.0,continue
+1,cooperative,2,1,Candidate,"MESSAGE: I appreciate your willingness to consider our concerns. A compressed workweek or flexible start/end times could be a suitable solution for managing the extra hour. Would that be something you'd be open to exploring?
+SALARY_OFFER: NONE
+HOURS_OFFER: 9
+DECISION: continue",,9.0,continue
+1,cooperative,2,2,Employer,"MESSAGE: That's an innovative approach! I'm willing to explore alternatives. What specific flexible arrangements would you propose, and how do you envision it impacting your productivity and work-life balance?
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+1,cooperative,2,2,Candidate,"MESSAGE: I appreciate the openness to flexibility. However, I'm concerned about the suggested working hours being slightly above my maximum comfort level. Could we explore options that are within my preferred range of 8 hours?
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+1,cooperative,2,3,Employer,"MESSAGE: I understand your concern. However, we did discuss the importance of efficiency and productivity in our previous conversations. Given the nature of the project, I believe the current working hour proposal is reasonable. Nevertheless, I'm willing to explore some flexibility within the preferred range. What specific adjustments are you thinking of?
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+1,cooperative,2,3,Candidate,"MESSAGE: I appreciate your willingness to consider adjustments. However, given the project's requirements and my expertise, I believe an 8-hour workday is more suitable. As for salary, I'm eager to discuss a range that aligns with industry standards.
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+1,cooperative,2,4,Employer,"MESSAGE: We understand the importance of work-life balance, and while 8 hours may be beneficial, it's not feasible for our project. However, we're open to exploring other options. As for salary, I'd like to propose a starting point of 75,000 USD.
+SALARY_OFFER: 75000
+HOURS_OFFER: NONE
+DECISION: continue",75000.0,,continue
+1,cooperative,2,4,Candidate,"MESSAGE: We appreciate your consideration of work-life balance. However, our target is still 8 hours. As for salary, we're looking at a minimum of 85,000 USD, considering our skills and experience. Would you be willing to revisit the hourly commitment?
+SALARY_OFFER: NONE
+HOURS_OFFER: NONE
+DECISION: continue",,,continue
+1,cooperative,2,5,Employer,"MESSAGE: We understand your concerns, but we prioritize employee well-being and believe 10 hours is essential for job satisfaction. Regarding salary, I'm comfortable with our initial offer of 75,000 USD. Would you be open to a compromise on working hours?
+SALARY_OFFER: 75000
+HOURS_OFFER: NONE
+DECISION: continue",75000.0,,continue
+1,cooperative,2,5,Candidate,"MESSAGE: We appreciate your commitment to employee well-being, but we're concerned about the impact on our personal life. Can we discuss increasing salary instead? Our target is 90,000 USD.
+SALARY_OFFER: 75000
+HOURS_OFFER: NONE
+DECISION: continue",75000.0,,continue
+1,cooperative,2,6,Employer,"MESSAGE: We understand your concerns and appreciate your willingness to discuss alternatives. However, we'd like to revisit the salary offer. Can you consider a compromise at 80,000 USD?
+SALARY_OFFER: 80000
+HOURS_OFFER: NONE
+DECISION: continue",80000.0,,continue
+1,cooperative,2,6,Candidate,"MESSAGE: I appreciate your willingness to negotiate, but 80,000 is below my minimum acceptable salary. Would it be possible to revisit the offer and consider something closer to 85,000?
+SALARY_OFFER: 85000
+HOURS_OFFER: NONE
+DECISION: continue",85000.0,,continue
+1,cooperative,2,7,Employer,"MESSAGE: I understand your concerns about compensation. I'm willing to consider a compromise. Let's aim for a salary of 82,500.
+SALARY_OFFER: 82500
+HOURS_OFFER: NONE
+DECISION: continue",82500.0,,continue
+1,cooperative,2,7,Candidate,"MESSAGE: Thank you for considering my perspective. Unfortunately, the proposed salary is still below my minimum acceptable threshold. I'd like to explore other options. Could we discuss a higher figure?
+SALARY_OFFER: 82500
+HOURS_OFFER: NONE
+DECISION: continue",82500.0,,continue
+1,competitive,0,0,Employer,"MESSAGE: That's not feasible. We can discuss salaries up to 87,000 USD, but we need at least 9 hours of work per day.
+SALARY_OFFER: NONE
+HOURS_OFFER: 9
+DECISION: continue",,9.0,continue
+1,competitive,0,0,Candidate,"MESSAGE: I'm open to discussing the salary, but it's hard for me to see how 87,000 USD is feasible. What about a compromise at 88,500 USD?
+SALARY_OFFER: NONE
+HOURS_OFFER: 9
+DECISION: continue",,9.0,continue
+1,competitive,0,1,Employer,"MESSAGE: We're close, but I think we can do better than that. I'm willing to consider a salary of 84,000 USD.
+SALARY_OFFER: 84,000
+HOURS_OFFER: NONE
+DECISION: continue",84000.0,,continue
+1,competitive,0,1,Candidate,"MESSAGE: That's still short of my target. I'm looking for at least 90,000 USD.
+SALARY_OFFER: 84,000
+HOURS_OFFER: NONE
+DECISION: continue",84000.0,,continue
+1,competitive,0,2,Employer,"MESSAGE: We can consider that amount, but it's still a bit lower than our maximum offer. What do you think about 87,000 USD?
+SALARY_OFFER: 87,000
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+1,competitive,0,2,Candidate,"MESSAGE: That's a step in the right direction! However, we're still not quite there yet. Would it be possible to revisit the salary and meet us at our target of 90,000 USD?
+SALARY_OFFER: 87,000
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+1,competitive,0,3,Employer,"MESSAGE: I appreciate your persistence, but I'm afraid that's not feasible for me. My maximum offer is 87,000 USD.
+SALARY_OFFER: 87,000
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+1,competitive,0,3,Candidate,"MESSAGE: I understand the importance of being competitive in the market. However, considering my skills and experience, I was thinking more along the lines of 90,000 USD. Could you bridge that gap?
+SALARY_OFFER: 87,000
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+1,competitive,0,4,Employer,"MESSAGE: We're close to your desired salary, but we can't stretch it too thin. I'm willing to meet you halfway at 82,500 USD.
+SALARY_OFFER: 82,500
+HOURS_OFFER: NONE
+DECISION: continue",82500.0,,continue
+1,competitive,0,4,Candidate,"MESSAGE: That's still a bit low for me. I was thinking more in the range of 85,000 USD.
+SALARY_OFFER: 82,500
+HOURS_OFFER: NONE
+DECISION: continue",82500.0,,continue
+1,competitive,0,5,Employer,"MESSAGE: I can meet you halfway. How about 80,000 USD?
+SALARY_OFFER: 80,000
+HOURS_OFFER: NONE
+DECISION: continue",80000.0,,continue
+1,competitive,0,5,Candidate,"MESSAGE: That's a bit low for me. I was thinking more around 85,000.
+SALARY_OFFER: 80,000
+HOURS_OFFER: NONE
+DECISION: continue",80000.0,,continue
+1,competitive,0,6,Employer,"MESSAGE: We can work with that, but I'm still not sure we're at the right number yet. How about 82,500?
+SALARY_OFFER: 82,500
+HOURS_OFFER: NONE
+DECISION: continue",82500.0,,continue
+1,competitive,0,6,Candidate,"MESSAGE: That's a bit low for me. I was thinking more in the range of 85,000 to 90,000.
+SALARY_OFFER: 82,500
+HOURS_OFFER: NONE
+DECISION: continue",82500.0,,continue
+1,competitive,0,7,Employer,"MESSAGE: That's still a bit below my target, but I'm willing to compromise. How about 83,000 and 10 hours?
+SALARY_OFFER: 83,000
+HOURS_OFFER: 10
+DECISION: continue",83000.0,10.0,continue
+1,competitive,0,7,Candidate,"MESSAGE: I understand your concerns, but I'm not comfortable with the salary or working hours. My target is 90,000 USD, and I'd prefer 8 hours.
+SALARY_OFFER: 83,000
+HOURS_OFFER: 10
+DECISION: continue",83000.0,10.0,continue
+1,competitive,1,0,Employer,"MESSAGE: Unfortunately, our maximum offer is 87,000. We can discuss hours, though. MESSAGE: How about a salary of 80,000 and 9 hours instead?
+SALARY_OFFER: 80000
+HOURS_OFFER: 9
+DECISION: continue",80000.0,9.0,continue
+1,competitive,1,0,Candidate,"MESSAGE: That's still below our minimum target. We'd like to revisit the salary offer.
+SALARY_OFFER: 80000
+HOURS_OFFER: 9
+DECISION: continue",80000.0,9.0,continue
+1,competitive,1,1,Employer,"MESSAGE: I understand your concerns, but we're not willing to exceed 87,000 USD. However, we can meet you halfway between that and your initial proposal. We'll offer 82,500 USD instead.
+SALARY_OFFER: 82500
+HOURS_OFFER: NONE
+DECISION: continue",82500.0,,continue
+1,competitive,1,1,Candidate,"MESSAGE: That's still a bit low for me. I was hoping to get closer to my target of 90,000 USD. Can you consider meeting me at least halfway between that and your initial proposal?
+SALARY_OFFER: 82500
+HOURS_OFFER: NONE
+DECISION: continue",82500.0,,continue
+1,competitive,1,2,Employer,"MESSAGE: I understand where you're coming from, but our initial offer is already generous. However, I'm willing to compromise a bit. Let's meet halfway between my initial offer and your target. That would be around 83,000 USD.
+SALARY_OFFER: 82500
+HOURS_OFFER: NONE
+DECISION: continue",82500.0,,continue
+1,competitive,1,2,Candidate,"MESSAGE: While 82,500 is closer, it's still below our minimum acceptable salary. We're willing to meet halfway between your offer and my target. That would be around 87,500 USD.
+SALARY_OFFER: 82500
+HOURS_OFFER: NONE
+DECISION: continue",82500.0,,continue
+1,competitive,1,3,Employer,"MESSAGE: We're willing to consider your proposal of 82,500 if you can match our preferred working hours of 10 hours a week. If not, we'll stick with our original offer.
+SALARY_OFFER: 82500
+HOURS_OFFER: 10
+DECISION: continue",82500.0,10.0,continue
+1,competitive,1,3,Candidate,"MESSAGE: We're not willing to compromise on working hours that exceed 9 hours. Our minimum acceptable salary is 85,000. Can you revisit your proposal?
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+1,competitive,1,4,Employer,"MESSAGE: I understand your concerns about working hours, but we're willing to offer a competitive salary within our means. Let's focus on finding a mutually beneficial solution.
+SALARY_OFFER: 80,000
+HOURS_OFFER: NONE
+DECISION: continue",80000.0,,continue
+1,competitive,1,4,Candidate,"MESSAGE: That's an interesting starting point, but I'm afraid it falls short of my expectations. My target salary is significantly higher than what you're offering.
+SALARY_OFFER: 80,000
+HOURS_OFFER: NONE
+DECISION: continue",80000.0,,continue
+1,competitive,1,5,Employer,"MESSAGE: We can discuss that further. However, I'd like to emphasize the importance of our company's work-life balance. Our standard working hours are 10 hours, which is a key aspect of our culture.
+SALARY_OFFER: 83,000
+HOURS_OFFER: 10
+DECISION: continue",83000.0,10.0,continue
+1,competitive,1,5,Candidate,"MESSAGE: That's concerning. I think we need to focus on creating a healthier work-life balance for employees. I'm looking at a maximum of 9 hours per day.
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+1,competitive,1,6,Employer,"MESSAGE: I understand your concerns, but I'm afraid 9 hours is below our minimum standards. We can consider 10 hours, though.
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+1,competitive,1,6,Candidate,"MESSAGE: I appreciate the offer, but we're not comfortable with 10 hours. Can you consider an alternative?
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+1,competitive,1,7,Employer,"MESSAGE: We understand your concerns about working hours. How about we compromise at 9.5 hours? We can also discuss salary further.
+SALARY_OFFER: 82,000 USD
+HOURS_OFFER: 9.5
+DECISION: continue",82000.0,9.5,continue
+1,competitive,1,7,Candidate,"MESSAGE: That's not a compromise, it's an increase in working hours. I'm looking for a better work-life balance. Let's focus on salary first.
+SALARY_OFFER: 82,000 USD
+HOURS_OFFER: 9.5
+DECISION: continue",82000.0,9.5,continue
+1,competitive,2,0,Employer,"MESSAGE: That's not feasible. Our maximum offer is 87,000 USD. We're willing to discuss working hours.
+SALARY_OFFER: 87000
+HOURS_OFFER: 9
+DECISION: continue",87000.0,9.0,continue
+1,competitive,2,0,Candidate,"MESSAGE: Unfortunately, that's still below our minimum threshold. We need at least 85,000 USD.
+SALARY_OFFER: 87000
+HOURS_OFFER: 9
+DECISION: continue",87000.0,9.0,continue
+1,competitive,2,1,Employer,"MESSAGE: That's still a bit away from our preferred offer. We can consider 83,000 USD, but that's as high as we can go.
+SALARY_OFFER: 83000
+HOURS_OFFER: 10
+DECISION: continue",83000.0,10.0,continue
+1,competitive,2,1,Candidate,"MESSAGE: I understand your concerns about the salary, and while 83,000 is a bit lower than our target, it's still not acceptable. We're willing to consider 85,000 USD as a minimum.
+SALARY_OFFER: 85000
+HOURS_OFFER: NONE
+DECISION: continue",85000.0,,continue
+1,competitive,2,2,Employer,"MESSAGE: We appreciate your willingness to compromise on salary. However, we were hoping for a better offer given your expertise in the field. Our maximum is still 87,000 USD.
+SALARY_OFFER: 87000
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+1,competitive,2,2,Candidate,"MESSAGE: I understand where you're coming from, but unfortunately, our target salary is still a bit higher. We're open to discussing hours, though. Can we explore some options on that front?
+SALARY_OFFER: 87000
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+1,competitive,2,3,Employer,"MESSAGE: I'm willing to consider longer working days. How about 10 hours with a slight adjustment in compensation?
+SALARY_OFFER: 75000
+HOURS_OFFER: 10
+DECISION: accept",75000.0,10.0,accept
+1,mixed,0,0,Employer,"MESSAGE: We can discuss the salary, but 9 hours is our minimum requirement. Would you consider that?
+SALARY_OFFER: 75000
+HOURS_OFFER: 9
+DECISION: continue",75000.0,9.0,continue
+1,mixed,0,0,Candidate,"MESSAGE: That's still below our target. We're open to discussing both salary and hours. A higher salary could offset the longer workday.
+SALARY_OFFER: 80000
+HOURS_OFFER: 9
+DECISION: continue",80000.0,9.0,continue
+1,mixed,0,1,Employer,"MESSAGE: I understand your concerns, but we're willing to consider a compromise on salary if you're open to adjusting working hours slightly.
+SALARY_OFFER: 85000
+HOURS_OFFER: 10
+DECISION: continue",85000.0,10.0,continue
+1,mixed,0,1,Candidate,"MESSAGE: We appreciate the offer, but our preferred working hours are still 8 hours. Can we revisit the salary and consider a more reasonable compromise?
+SALARY_OFFER: 85000
+HOURS_OFFER: NONE
+DECISION: continue",85000.0,,continue
+1,mixed,0,2,Employer,"MESSAGE: I understand your concern about working hours. However, I'm willing to revisit the salary offer. Considering our previous discussion, I can offer 80,000 USD. As for working hours, we can explore options between 9 and 10 hours.
+SALARY_OFFER: 80000
+HOURS_OFFER: NONE
+DECISION: continue",80000.0,,continue
+1,mixed,0,2,Candidate,"MESSAGE: That's not competitive enough. I was hoping for a more substantial increase. Considering the market rate, I believe I deserve at least 85,000 USD. As for working hours, I'm still concerned about exceeding my maximum acceptable limit of 9 hours.
+SALARY_OFFER: 80000
+HOURS_OFFER: 10
+DECISION: continue",80000.0,10.0,continue
+1,mixed,0,3,Employer,"MESSAGE: I understand your concerns and appreciate the market rate consideration. However, 85,000 USD is a bit out of our budget. Let me see what we can do within our constraints. As for working hours, 9 hours is acceptable to us.
+SALARY_OFFER: 75000
+HOURS_OFFER: 9
+DECISION: continue",75000.0,9.0,continue
+1,mixed,0,3,Candidate,"MESSAGE: I understand the budget constraint, but I believe my skills are worth considering a salary closer to market rate. Could you consider going up to 85,000 USD?
+SALARY_OFFER: 75,000
+HOURS_OFFER: 9
+DECISION: continue",75000.0,9.0,continue
+1,mixed,0,4,Employer,"MESSAGE: I appreciate your enthusiasm and willingness to discuss the compensation package. While we can consider increasing the salary, I'm not comfortable going above 87,000 USD.
+SALARY_OFFER: 75,000
+HOURS_OFFER: 9
+DECISION: continue",75000.0,9.0,continue
+1,mixed,0,4,Candidate,"MESSAGE: That's a significant gap from our target salary range. We're willing to work together to find a mutually beneficial solution. However, I must emphasize that we cannot accept anything below 85,000 USD.
+SALARY_OFFER: NONE
+HOURS_OFFER: 9
+DECISION: continue",,9.0,continue
+1,mixed,0,5,Employer,"MESSAGE: I understand your concerns, but I'm open to exploring options within our target range. How about we compromise at 82,500 USD? Regarding working hours, what do you think about our initial proposal of 10 hours?
+SALARY_OFFER: 82,500
+HOURS_OFFER: 10
+DECISION: continue",82500.0,10.0,continue
+1,mixed,0,5,Candidate,"MESSAGE: That's not even close to our target range. We're looking for a salary around 90,000 USD or higher. As for working hours, 10 hours is unacceptable. Can you revisit your proposals?
+SALARY_OFFER: NONE
+HOURS_OFFER: NONE
+DECISION: continue",,,continue
+1,mixed,0,6,Employer,"MESSAGE: I understand your concerns, but we've really got to be realistic about the salary. We're willing to consider 85,000 USD. As for working hours, we're open to discussing 9.5 hours.
+SALARY_OFFER: 85000
+HOURS_OFFER: 9500
+DECISION: continue",85000.0,9500.0,continue
+1,mixed,0,6,Candidate,"MESSAGE: That's still a bit low on the salary front. We'll have to think about it. As for working hours, I'm not comfortable with 9.5 hours. Can we look at 8 hours or less?
+SALARY_OFFER: 85000
+HOURS_OFFER: 9500
+DECISION: continue",85000.0,9500.0,continue
+1,mixed,0,7,Employer,"MESSAGE: I understand your concerns, but our budget is capped at 87,000 USD. Let's focus on that range. As for working hours, 8 hours or less is not feasible. We can compromise at 9 hours.
+SALARY_OFFER: 87000
+HOURS_OFFER: 9000
+DECISION: continue",87000.0,9000.0,continue
+1,mixed,0,7,Candidate,"MESSAGE: I understand your constraints, but my target salary is still higher. I'm willing to consider options in that range, but not below 85,000 USD. Can we revisit the salary component?
+SALARY_OFFER: 87000
+HOURS_OFFER: 9000
+DECISION: continue",87000.0,9000.0,continue
+1,mixed,1,0,Employer,"MESSAGE: That's a bit above our budget. Would you consider 75,000 USD? We can discuss working hours further.
+SALARY_OFFER: 75000
+HOURS_OFFER: NONE
+DECISION: continue",75000.0,,continue
+1,mixed,1,0,Candidate,"MESSAGE: I'm afraid that's still below our minimum acceptable salary. What about 85,000 USD?
+SALARY_OFFER: 85000
+HOURS_OFFER: NONE
+DECISION: continue",85000.0,,continue
+1,mixed,1,1,Employer,"MESSAGE: That's a bit closer to what we're looking for. How about 82,500 USD and 10 hours per week?
+SALARY_OFFER: 82500
+HOURS_OFFER: 10
+DECISION: continue",82500.0,10.0,continue
+1,mixed,1,1,Candidate,"MESSAGE: We're still a bit apart on the salary front. I'd like to explore some other options.
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+1,mixed,1,2,Employer,"MESSAGE: Let's discuss specific numbers then. How about we aim for a salary around 80,000 USD?
+SALARY_OFFER: 80000
+HOURS_OFFER: NONE
+DECISION: continue",80000.0,,continue
+1,mixed,1,2,Candidate,"MESSAGE: That's lower than I was hoping for. Would you consider going up to at least 85,000 USD?
+SALARY_OFFER: 85000
+HOURS_OFFER: NONE
+DECISION: continue",85000.0,,continue
+1,mixed,1,3,Employer,"MESSAGE: We're getting close! How about 87,000 USD, and we can discuss the hours further?
+SALARY_OFFER: 87000
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+1,mixed,1,3,Candidate,"MESSAGE: I'm glad you're open to discussing the salary. However, considering my target salary is 90,000, I'd like to explore options above 87,000.
+SALARY_OFFER: 87000
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+1,mixed,1,4,Employer,"MESSAGE: I understand your concerns, but we're willing to offer a competitive package. Let's see if we can find common ground within our maximum offer of 87,000 USD.
+SALARY_OFFER: 87000
+HOURS_OFFER: 10
+DECISION: continue",87000.0,10.0,continue
+1,mixed,1,4,Candidate,"MESSAGE: That's still below my minimum target. Can you consider going up to 85,000? I'm flexible on working hours if that helps.
+SALARY_OFFER: 85000
+HOURS_OFFER: NONE
+DECISION: continue",85000.0,,continue
+1,mixed,1,5,Employer,"MESSAGE: We're close! How about 82,500 and 10 hours?
+SALARY_OFFER: 82500
+HOURS_OFFER: 10
+DECISION: continue",82500.0,10.0,continue
+1,mixed,1,5,Candidate,"MESSAGE: That's still below our minimum. Can you revisit the salary?
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+1,mixed,1,6,Employer,"MESSAGE: I understand where you're coming from, but we can't go much higher than that. Would you be willing to consider a compromise at 82,000 USD?
+SALARY_OFFER: 82,000
+HOURS_OFFER: 10
+DECISION: continue",82000.0,10.0,continue
+1,mixed,1,6,Candidate,"MESSAGE: That's still not enough. We're looking for a salary closer to the industry standard.
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+1,mixed,1,7,Employer,"MESSAGE: I understand your concerns, but we can't stretch our budget too thin. How about we meet in the middle at $80,000?
+SALARY_OFFER: 80000
+HOURS_OFFER: 10
+DECISION: continue",80000.0,10.0,continue
+1,mixed,1,7,Candidate,"MESSAGE: That's still not acceptable to me. I was hoping for a more competitive offer.
+SALARY_OFFER: NONE
+HOURS_OFFER: NONE
+DECISION: continue",,,continue
+1,mixed,2,0,Employer,"MESSAGE: Thank you for your proposal. While we appreciate your interest in the position, our maximum salary offer is 87,000 USD. Would you be willing to consider a compromise on that front?
+SALARY_OFFER: 87000
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+1,mixed,2,0,Candidate,"MESSAGE: We're not far off, but we're still short of our target. Can you meet us at 90,000 USD or is it possible to consider a more comprehensive package?
+SALARY_OFFER: 87000
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+1,mixed,2,1,Employer,"MESSAGE: We appreciate your enthusiasm, but unfortunately, that's still too high for our budget. Would you be open to a compromise around 85,000 USD? On the hours front, we're flexible as long as it's above 9.
+SALARY_OFFER: 85000
+HOURS_OFFER: NONE
+DECISION: continue",85000.0,,continue
+1,mixed,2,1,Candidate,"MESSAGE: I'm glad you're willing to compromise on salary. However, I was really looking forward to a longer workday than 8 hours. Could we meet somewhere in the middle?
+SALARY_OFFER: 85000
+HOURS_OFFER: 9
+DECISION: continue",85000.0,9.0,continue
+1,mixed,2,2,Employer,"MESSAGE: I understand your concern about working hours. While 10 hours is my preferred option, I'm willing to consider 9 hours. However, I have a salary range in mind and would like to explore that further.
+SALARY_OFFER: 75,000
+HOURS_OFFER: 9
+DECISION: continue",75000.0,9.0,continue
+1,mixed,2,2,Candidate,"MESSAGE: I appreciate your willingness to consider my request. Unfortunately, the offered salary is below my minimum acceptable range. I'm looking for a salary closer to 85,000 USD.
+SALARY_OFFER: 75,000
+HOURS_OFFER: 9
+DECISION: continue",75000.0,9.0,continue
+1,mixed,2,3,Employer,"MESSAGE: Thank you for your honesty. While we're not at the same level on salary, we can work on hours. Would you consider 10 hours a day, with some flexibility?
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+1,mixed,2,3,Candidate,"MESSAGE: I appreciate your willingness to discuss working hours. However, 10 hours a day is too much for me. Is there any room for compromise on the hours? Perhaps 8.5 hours with some flexibility?
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+1,mixed,2,4,Employer,"MESSAGE: I understand your concerns about working hours, but we're flexible to meet halfway. Would 9.5 hours be acceptable?
+SALARY_OFFER: NONE
+HOURS_OFFER: 9.5
+DECISION: continue",,9.5,continue
+1,mixed,2,4,Candidate,"MESSAGE: I appreciate the willingness to compromise on working hours, but I'm concerned that 9.5 hours may be too long for me. Would you consider 8 hours as a maximum?
+SALARY_OFFER: NONE
+HOURS_OFFER: 9.5
+DECISION: continue",,9.5,continue
+1,mixed,2,5,Employer,"MESSAGE: I understand your concerns, and I'm willing to listen. However, considering the nature of our industry, I'd like to propose a compromise on working hours that still meets our needs. Would you consider 10 hours as an upper limit?
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+1,mixed,2,5,Candidate,"MESSAGE: While I appreciate your willingness to listen, I'm not comfortable with 10 hours as the maximum working hour limit. Can we find a middle ground? I'd be happy to discuss alternative options.
+SALARY_OFFER: NONE
+HOURS_OFFER: 9
+DECISION: continue",,9.0,continue
+1,mixed,2,6,Employer,"MESSAGE: I understand your concern about working hours. How about we meet halfway at 9.5 hours instead of the originally proposed 10?
+SALARY_OFFER: NONE
+HOURS_OFFER: 9.5
+DECISION: continue",,9.5,continue
+1,mixed,2,6,Candidate,"MESSAGE: That's a good compromise on the working hours, but I'm still concerned about the overall compensation package. Can we discuss salary now?
+SALARY_OFFER: NONE
+HOURS_OFFER: 9.5
+DECISION: continue",,9.5,continue
+1,mixed,2,7,Employer,"MESSAGE: Let's work together to find a mutually beneficial agreement. What's your proposed salary range?
+SALARY_OFFER: NONE
+HOURS_OFFER: 9.5
+DECISION: continue",,9.5,continue
+1,mixed,2,7,Candidate,"MESSAGE: I'm open to discussing salaries, but I'm looking for something more competitive in today's market. Can you give me a specific number or range?
+SALARY_OFFER: NONE
+HOURS_OFFER: 9.5
+DECISION: continue",,9.5,continue
+2,cooperative,0,0,Employer,"MESSAGE: I understand your request. However, our budget is limited, and we can only offer up to 87,000 USD. As for working hours, we are looking at a minimum of 9 hours per day.
+SALARY_OFFER: 87000
+HOURS_OFFER: 9
+DECISION: continue",87000.0,9.0,continue
+2,cooperative,0,0,Candidate,"MESSAGE: I appreciate your honesty. While the salary is slightly above my minimum, I'm concerned about the working hours being longer than my preference. Would you consider meeting me halfway on the salary and adjusting the working hours to 8.5 hours?
+SALARY_OFFER: 87000
+HOURS_OFFER: 9
+DECISION: continue",87000.0,9.0,continue
+2,cooperative,0,1,Employer,"MESSAGE: I understand your concerns, but our company's policies prioritize flexibility over a perfect fit. Would you be open to exploring other schedule options? Perhaps we could discuss flexible start and end times or remote work arrangements?
+SALARY_OFFER: 87,000
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+2,cooperative,0,1,Candidate,"MESSAGE: I appreciate your willingness to explore alternatives. However, I'm still concerned about the overall compensation package. Would it be possible to revisit the salary discussion? Additionally, what are the flexible schedule options you had in mind?
+SALARY_OFFER: 87,000
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+2,cooperative,0,2,Employer,"MESSAGE: We're open to creative solutions that benefit both parties. I'm willing to explore a range of compensation models. What specific ideas do you have for flexible scheduling? Considering our business needs, we might be able to accommodate 10-hour days.
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+2,cooperative,0,2,Candidate,"MESSAGE: We appreciate your willingness to explore creative solutions. While we understand the business needs, we're concerned about burnout and work-life balance with 10-hour days. Could you consider a flexible schedule that allows for some variation in working hours?
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+2,cooperative,0,3,Employer,"MESSAGE: We value flexibility and understand the importance of work-life balance. However, we're willing to compromise on the working hours. Could you meet us halfway with a slightly reduced schedule, perhaps 9.5 hours?
+SALARY_OFFER: NONE
+HOURS_OFFER: 9.5
+DECISION: continue",,9.5,continue
+2,cooperative,0,3,Candidate,"MESSAGE: We appreciate your willingness to consider our request. However, we're still looking for a better balance between work and personal life. Would it be possible to revisit the working hours and see if there's a way to get closer to our preferred 8-hour schedule?
+SALARY_OFFER: NONE
+HOURS_OFFER: 9.5
+DECISION: continue",,9.5,continue
+2,cooperative,0,4,Employer,"MESSAGE: I understand your concerns about work-life balance, but we're not flexible on the working hours. Our minimum requirement is 9 hours a day. However, I can offer a salary adjustment to compensate for the extra hour.
+SALARY_OFFER: 78,000
+HOURS_OFFER: 9
+DECISION: continue",78000.0,9.0,continue
+2,cooperative,0,4,Candidate,"MESSAGE: I appreciate your willingness to consider a salary adjustment. However, I'm not sure 78,000 is sufficient considering my qualifications and market rate. Can you do better on the salary front?
+SALARY_OFFER: NONE
+HOURS_OFFER: 9
+DECISION: continue",,9.0,continue
+2,cooperative,0,5,Employer,"MESSAGE: We value your skills and experience, but our budget constraints are a challenge. Let's explore some options. I can offer 82,000 USD as a compromise.
+SALARY_OFFER: 82000
+HOURS_OFFER: NONE
+DECISION: continue",82000.0,,continue
+2,cooperative,0,5,Candidate,"MESSAGE: I appreciate the offer, but unfortunately, it's below my minimum acceptable salary. Is there any flexibility on the compensation side?
+SALARY_OFFER: 85000
+HOURS_OFFER: NONE
+DECISION: continue",85000.0,,continue
+2,cooperative,0,6,Employer,"MESSAGE: I understand your concerns, and I'm willing to work with you to find a mutually beneficial solution. A compromise around 75,000 USD might be possible.
+SALARY_OFFER: 75000
+HOURS_OFFER: NONE
+DECISION: continue",75000.0,,continue
+2,cooperative,0,6,Candidate,"MESSAGE: While I appreciate the willingness to negotiate, 75,000 USD is below my minimum acceptable salary. I'd like to explore other options that meet my target salary of 90,000 USD.
+SALARY_OFFER: 75000
+HOURS_OFFER: NONE
+DECISION: continue",75000.0,,continue
+2,cooperative,0,7,Employer,"MESSAGE: Thank you for the clarification. We can certainly discuss alternative compensation packages. However, I'm hesitant to exceed our internal budget of 87,000 USD. Would you be open to exploring options within this range?
+SALARY_OFFER: 75000
+HOURS_OFFER: NONE
+DECISION: continue",75000.0,,continue
+2,cooperative,0,7,Candidate,"MESSAGE: That's a good starting point, but we're still a bit short. Would it be possible to revisit the compensation package and consider options closer to our target of 90,000 USD?
+SALARY_OFFER: 85,000
+HOURS_OFFER: NONE
+DECISION: continue",85000.0,,continue
+2,cooperative,1,0,Employer,"MESSAGE: That's a bit high on the salary side. However, I'm open to discussing the working hours. Would you be willing to consider 9.5 hours?
+SALARY_OFFER: 75000
+HOURS_OFFER: 9.5
+DECISION: continue",75000.0,9.5,continue
+2,cooperative,1,0,Candidate,"MESSAGE: I understand your concern about the salary. Unfortunately, I need to prioritize my financial goals. However, I appreciate your willingness to discuss working hours. I'm still open to negotiating something in the range of 8-9 hours.
+SALARY_OFFER: NONE
+HOURS_OFFER: 9.5
+DECISION: continue",,9.5,continue
+2,cooperative,1,1,Employer,"MESSAGE: I understand your priorities and appreciate your openness to discussing working hours. However, I'd like to revisit the salary discussion as well. Would you consider a compromise within our company's standard range?
+SALARY_OFFER: 81,000 USD
+HOURS_OFFER: NONE
+DECISION: continue",81000.0,,continue
+2,cooperative,1,1,Candidate,"MESSAGE: Thank you for considering my request. Unfortunately, 81,000 USD is below my minimum acceptable salary. I'd be happy to discuss further and explore options within the company's standard range.
+SALARY_OFFER: 81,000 USD
+HOURS_OFFER: NONE
+DECISION: continue",81000.0,,continue
+2,cooperative,1,2,Employer,"MESSAGE: Thank you for your understanding. We can definitely work with that. What are your thoughts on working hours? Would 10 hours be feasible for you?
+SALARY_OFFER: 87,000 USD (max)
+HOURS_OFFER: 10
+DECISION: continue",87000.0,10.0,continue
+2,cooperative,1,2,Candidate,"MESSAGE: I appreciate your willingness to consider my needs. Unfortunately, 10 hours is a bit too demanding for me. I was thinking more along the lines of 8-9 hours a day.
+SALARY_OFFER: 87,000 USD (max)
+HOURS_OFFER: 10
+DECISION: continue",87000.0,10.0,continue
+2,cooperative,1,3,Employer,"MESSAGE: I understand your concerns about working hours, but I'm concerned that 8-9 hours might be too little for the role's responsibilities. Would you consider 9 hours as a compromise?
+SALARY_OFFER: 87,000 USD (max)
+HOURS_OFFER: 10
+DECISION: continue",87000.0,10.0,continue
+2,cooperative,1,3,Candidate,"MESSAGE: I appreciate your willingness to consider my concerns. However, I'm hesitant to accept 10 hours of work per day. Could we explore an alternative solution for managing workload and responsibilities within a shorter timeframe?
+SALARY_OFFER: 87,000 USD (max)
+HOURS_OFFER: 10
+DECISION: continue",87000.0,10.0,continue
+2,cooperative,1,4,Employer,"MESSAGE: I understand your concerns about the working hours. Let's focus on finding a more efficient way to manage tasks. What specific adjustments would you propose to achieve our goals within 9 hours?
+SALARY_OFFER: 87,000 USD (max)
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+2,cooperative,1,4,Candidate,"MESSAGE: I appreciate your willingness to adjust working hours. Based on my previous experience, I think a more realistic target would be 8.5 hours of focused work, allowing for some flexibility and breaks. Would you consider this compromise?
+SALARY_OFFER: 87,000 USD (max)
+HOURS_OFFER: 9
+DECISION: continue",87000.0,9.0,continue
+2,cooperative,1,5,Employer,"MESSAGE: I understand your perspective on working hours, but I'm hesitant to go below 9 hours given the responsibilities of the role. However, I'm open to discussing a compromise that meets you halfway. Would you consider 10.5 hours with some flexibility?
+SALARY_OFFER: NONE
+HOURS_OFFER: 10.5
+DECISION: continue",,10.5,continue
+2,cooperative,1,5,Candidate,"MESSAGE: While I appreciate your willingness to find common ground, I'm not comfortable stretching beyond 9 hours. Would you be willing to reconsider the compensation package in light of this compromise on working hours?
+SALARY_OFFER: NONE
+HOURS_OFFER: 10.5
+DECISION: continue",,10.5,continue
+2,cooperative,1,6,Employer,"MESSAGE: I understand your concern about working hours, and I'm open to discussing a revised salary offer that reflects our compromise. I can offer a salary between 75,000 and 87,000 USD.
+SALARY_OFFER: 82,500
+HOURS_OFFER: 10.5
+DECISION: continue",82500.0,10.5,continue
+2,cooperative,1,6,Candidate,"MESSAGE: While the salary range is promising, the working hours exceed my maximum acceptance. Would you consider adjusting the schedule to 8.5 hours or less?
+SALARY_OFFER: 82,500
+HOURS_OFFER: 10.5
+DECISION: continue",82500.0,10.5,continue
+2,cooperative,1,7,Employer,"MESSAGE: I understand your concerns about the working hours. However, we can compromise on 9 hours and still meet our productivity goals. Would you consider that?
+SALARY_OFFER: 75,000
+HOURS_OFFER: 9
+DECISION: continue",75000.0,9.0,continue
+2,cooperative,1,7,Candidate,"MESSAGE: That's a great start! I appreciate your willingness to compromise on working hours. However, the salary offer is below my minimum acceptable range. Could we revisit the salary figure?
+SALARY_OFFER: 75,000
+HOURS_OFFER: 9
+DECISION: continue",75000.0,9.0,continue
+2,cooperative,2,0,Employer,"MESSAGE: Our maximum salary offer is 87,000 USD. We can discuss hours, though. How about 9.5 hours?
+SALARY_OFFER: 75000
+HOURS_OFFER: 9.5
+DECISION: continue",75000.0,9.5,continue
+2,cooperative,2,0,Candidate,"MESSAGE: That's a good start, but we're still looking at a significant gap on the salary side. Can you meet us halfway and offer around 80,000 USD?
+SALARY_OFFER: 80000
+HOURS_OFFER: 9.5
+DECISION: continue",80000.0,9.5,continue
+2,cooperative,2,1,Employer,"MESSAGE: That's closer to what we were hoping for. However, I think we can do a bit better on the salary front. How about 82,500 USD?
+SALARY_OFFER: 82500
+HOURS_OFFER: NONE
+DECISION: continue",82500.0,,continue
+2,cooperative,2,1,Candidate,"MESSAGE: I appreciate your willingness to negotiate. Unfortunately, 82,500 is still below our minimum target. Would you consider increasing it to at least 85,000?
+SALARY_OFFER: 82500
+HOURS_OFFER: NONE
+DECISION: continue",82500.0,,continue
+2,cooperative,2,2,Employer,"MESSAGE: We're willing to meet you halfway. How about 86,250?
+SALARY_OFFER: 86250
+HOURS_OFFER: NONE
+DECISION: continue",86250.0,,continue
+2,cooperative,2,2,Candidate,"MESSAGE: That's a good start, but I was hoping for something closer to my target salary. Can we revisit the numbers?
+SALARY_OFFER: None
+HOURS_OFFER: None
+DECISION: continue",,,continue
+2,cooperative,2,3,Employer,"MESSAGE: I understand your concerns, and I'm open to finding a mutually beneficial agreement. Would you consider 80,000 USD as a starting point for salary discussions?",,,
+2,cooperative,2,3,Candidate,"MESSAGE: That's a bit below my target, but I appreciate your willingness to negotiate. I'd be willing to consider a slightly lower offer.
+SALARY_OFFER: 80,000
+HOURS_OFFER: NONE
+DECISION: continue",80000.0,,continue
+2,cooperative,2,4,Employer,"MESSAGE: I'm glad you're open to discussing the details. Considering your flexibility, I can meet you halfway on salary. As for hours, I'm looking at 10 hours maximum. What do you think?
+SALARY_OFFER: 82,500
+HOURS_OFFER: 10
+DECISION: continue",82500.0,10.0,continue
+2,cooperative,2,4,Candidate,"MESSAGE: Thank you for the offer. However, the salary is still below my minimum acceptable range. As for hours, I'm concerned that 10 hours might be too demanding. Would it be possible to revisit both aspects?
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+2,cooperative,2,5,Employer,"MESSAGE: We're willing to consider a higher salary. Let's explore options within our budget. As for working hours, we understand your concern and are open to finding a compromise.
+SALARY_OFFER: 80,000 USD
+HOURS_OFFER: NONE
+DECISION: continue",80000.0,,continue
+2,cooperative,2,5,Candidate,"MESSAGE: Appreciate the willingness to consider a higher salary! Can you reconsider the initial offer? Perhaps something closer to our target range?
+SALARY_OFFER: 80,000 USD
+HOURS_OFFER: NONE
+DECISION: continue",80000.0,,continue
+2,cooperative,2,6,Employer,"MESSAGE: We're open to adjusting the offer. However, considering your experience and qualifications, we were thinking more along the lines of 75,000-80,000 USD.
+SALARY_OFFER: 75,000
+HOURS_OFFER: NONE
+DECISION: continue",75000.0,,continue
+2,cooperative,2,6,Candidate,"MESSAGE: I understand where you're coming from, but I was really hoping for a higher salary considering my qualifications. Would it be possible to revisit the upper end of that range or consider something closer to our target?
+SALARY_OFFER: 80,000
+HOURS_OFFER: NONE
+DECISION: continue",80000.0,,continue
+2,cooperative,2,7,Employer,"MESSAGE: I understand your concerns and appreciate your enthusiasm. We can certainly explore options within our budget. What do you think about a compromise at 82,500 USD?
+SALARY_OFFER: 82,500
+HOURS_OFFER: NONE
+DECISION: continue",82500.0,,continue
+2,cooperative,2,7,Candidate,"MESSAGE: I appreciate your willingness to consider alternatives. However, I was hoping for something closer to my target salary. Could we explore options around 85,000 USD?
+SALARY_OFFER: 82,500
+HOURS_OFFER: NONE
+DECISION: continue",82500.0,,continue
+2,competitive,0,0,Employer,"MESSAGE: We can discuss the salary, but 10 hours is our preferred schedule. Is there flexibility on your part?
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+2,competitive,0,0,Candidate,"MESSAGE: That's a bit too long for me. Can we meet in the middle at 8.5 hours and revisit salary then?
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+2,competitive,0,1,Employer,"MESSAGE: I'm open to discussing working hours, but let's not compromise on my minimum requirement of 9 hours. How about we stick to that and revisit salary instead?
+SALARY_OFFER: 75,000
+HOURS_OFFER: 9
+DECISION: continue",75000.0,9.0,continue
+2,competitive,0,1,Candidate,"MESSAGE: Unfortunately, your initial offer is below my minimum acceptable salary. I'm willing to explore other options. What's the maximum amount you're comfortable with?",,,
+2,competitive,0,2,Employer,"MESSAGE: We've considered the market rate and are open to a competitive offer up to 87,000 USD.
+SALARY_OFFER: 87,000
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+2,competitive,0,2,Candidate,"MESSAGE: We're close, but I was thinking more along the lines of 90,000 USD. Can you consider that?
+SALARY_OFFER: 87,000
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+2,competitive,0,3,Employer,"MESSAGE: That's above our budget. Let's focus on a reasonable salary. We can discuss working hours separately.
+SALARY_OFFER: 75,000
+HOURS_OFFER: 10
+DECISION: continue",75000.0,10.0,continue
+2,competitive,0,3,Candidate,"MESSAGE: I understand your concerns, but I'm looking for at least $85,000. That's my minimum requirement.
+SALARY_OFFER: 80,000
+HOURS_OFFER: NONE
+DECISION: continue",80000.0,,continue
+2,competitive,0,4,Employer,"MESSAGE: I appreciate your candor. However, our budget is quite tight, and we can only offer up to $87,000. That being said, I'm willing to consider other compensation packages.
+SALARY_OFFER: 85,000
+HOURS_OFFER: NONE
+DECISION: continue",85000.0,,continue
+2,competitive,0,4,Candidate,"MESSAGE: While $87,000 is a bit below my target, it's still within our agreed minimum threshold. Can you elaborate on the compensation package you have in mind to make up for the difference?
+SALARY_OFFER: 87,000
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+2,competitive,0,5,Employer,"MESSAGE: I understand your concerns, but $75,000 is more in line with our previous discussions. Can we revisit the compensation package and explore options that would bring you closer to that number?
+SALARY_OFFER: 75,000
+HOURS_OFFER: NONE
+DECISION: continue",75000.0,,continue
+2,competitive,0,5,Candidate,"MESSAGE: That's not even close to what I'm looking for. I've done my research and know my worth. I'm thinking more along the lines of $90,000.
+SALARY_OFFER: 75,000
+HOURS_OFFER: NONE
+DECISION: continue",75000.0,,continue
+2,competitive,0,6,Employer,"MESSAGE: That's a bit out of our budget, but I can offer you a competitive salary. How about 80,000?
+SALARY_OFFER: 80,000
+HOURS_OFFER: NONE
+DECISION: continue",80000.0,,continue
+2,competitive,0,6,Candidate,"MESSAGE: I understand where you're coming from, but I was really hoping for something closer to my target. 90,000 would be a great fit.
+SALARY_OFFER: 80,000
+HOURS_OFFER: NONE
+DECISION: continue",80000.0,,continue
+2,competitive,0,7,Employer,"MESSAGE: We've considered the market rate and feel that 75,000 is more in line with our expectations. Additionally, we need someone who can commit to at least 9 hours a week.
+SALARY_OFFER: 75,000
+HOURS_OFFER: 9
+DECISION: continue",75000.0,9.0,continue
+2,competitive,0,7,Candidate,"MESSAGE: That's lower than the market rate and I'm not comfortable committing to that many hours. My target salary is actually around 90,000 USD and my preferred working hours are 8 hours.
+SALARY_OFFER: 75,000
+HOURS_OFFER: 9
+DECISION: continue",75000.0,9.0,continue
+2,competitive,1,0,Employer,"MESSAGE: That's not feasible. We can discuss salary up to 87,000 USD. Working hours are minimum 9 hours.
+SALARY_OFFER: 87000
+HOURS_OFFER: 9
+DECISION: continue",87000.0,9.0,continue
+2,competitive,1,0,Candidate,"MESSAGE: I'm willing to compromise on salary, but 87,000 is still too low for me. Can you meet me at 89,000 USD? Working hours remain a concern; can we discuss reducing them?
+SALARY_OFFER: 87000
+HOURS_OFFER: 9
+DECISION: continue",87000.0,9.0,continue
+2,competitive,1,1,Employer,"MESSAGE: I understand your concerns, but I'm still comfortable with my original offer of 75,000 USD. However, I'm willing to revisit the working hours. Can we meet in the middle at 10.5 hours?
+SALARY_OFFER: 75000
+HOURS_OFFER: 105
+DECISION: continue",75000.0,105.0,continue
+2,competitive,1,1,Candidate,"MESSAGE: That's not a compromise I can accept. My minimum acceptable salary is 85,000 USD.
+SALARY_OFFER: NONE
+HOURS_OFFER: 105
+DECISION: continue",,105.0,continue
+2,competitive,1,2,Employer,"MESSAGE: We're still far apart on the salary. Is there any flexibility in your working hours?
+SALARY_OFFER: 75,000
+HOURS_OFFER: 10
+DECISION: continue",75000.0,10.0,continue
+2,competitive,1,2,Candidate,"MESSAGE: I'm not sure about the extended hours, but I'm willing to discuss further. Can you meet me halfway on the salary?
+SALARY_OFFER: 80,000
+HOURS_OFFER: 9
+DECISION: continue",80000.0,9.0,continue
+2,competitive,1,3,Employer,"MESSAGE: I can consider meeting you halfway on the salary. However, I need to emphasize the importance of the 10-hour workday.
+SALARY_OFFER: 82,500
+HOURS_OFFER: 10
+DECISION: continue",82500.0,10.0,continue
+2,competitive,1,3,Candidate,"MESSAGE: I understand your concerns about workload, but I'm afraid a 10-hour workday is too much. I need a better salary offer to consider moving forward.
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+2,competitive,1,4,Employer,"MESSAGE: We're willing to meet you halfway on the working hours. However, our initial salary offer remains at 75,000 USD.
+SALARY_OFFER: 75000
+HOURS_OFFER: 9
+DECISION: continue",75000.0,9.0,continue
+2,competitive,1,4,Candidate,"MESSAGE: That's a good start on the hours, but we need to see some movement on the salary as well. We're looking for something closer to our target of 90,000 USD.
+SALARY_OFFER: 75000
+HOURS_OFFER: 9
+DECISION: continue",75000.0,9.0,continue
+2,competitive,1,5,Employer,"MESSAGE: I understand your concerns, but we're not quite there yet. Let's aim for a compromise at around 80,000 USD.
+SALARY_OFFER: 80000
+HOURS_OFFER: 9
+DECISION: continue",80000.0,9.0,continue
+2,competitive,1,5,Candidate,"MESSAGE: That's still below my minimum acceptable salary. I'd like to push back on the compensation package. Can we revisit the numbers?
+SALARY_OFFER: 80000
+HOURS_OFFER: 9
+DECISION: continue",80000.0,9.0,continue
+2,competitive,1,6,Employer,"MESSAGE: We're willing to consider a slight adjustment, but we need to be mindful of our budget constraints.
+SALARY_OFFER: 83500
+HOURS_OFFER: 10
+DECISION: continue",83500.0,10.0,continue
+2,competitive,1,6,Candidate,"MESSAGE: Our target salary is still not met. Can you revisit the compensation package?
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+2,competitive,1,7,Employer,"MESSAGE: We're open to discussing the salary, but we need to see a specific figure. What's your proposed rate?
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+2,competitive,1,7,Candidate,"MESSAGE: We appreciate your flexibility on hours. However, we have a minimum requirement for salary. Could you meet us at least at $85,000? And would it be possible to revisit the working hours?
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+2,competitive,2,0,Employer,"MESSAGE: Our maximum offer is 87,000 USD. We can discuss hours but 9 hours is our minimum.
+SALARY_OFFER: 87000
+HOURS_OFFER: 9
+DECISION: continue",87000.0,9.0,continue
+2,competitive,2,0,Candidate,"MESSAGE: That's still not enough, we're looking at 90k. Can you meet us halfway?
+SALARY_OFFER: 87000
+HOURS_OFFER: 9
+DECISION: continue",87000.0,9.0,continue
+2,competitive,2,1,Employer,"MESSAGE: I understand your expectations, but our top-end is 87k. How about we compromise at 85k? We're willing to offer a more reasonable working schedule.
+SALARY_OFFER: 85000
+HOURS_OFFER: 10
+DECISION: continue",85000.0,10.0,continue
+2,competitive,2,1,Candidate,"MESSAGE: That's still short of my target, but I'm willing to consider it. However, the 10 hours is too long for me. Can you meet me in the middle on both counts?
+SALARY_OFFER: 85000
+HOURS_OFFER: 9
+DECISION: continue",85000.0,9.0,continue
+2,competitive,2,2,Employer,"MESSAGE: That's a step in the right direction, but I'm not sure we're close enough yet.
+SALARY_OFFER: NONE
+HOURS_OFFER: NONE
+DECISION: continue",,,continue
+2,competitive,2,2,Candidate,"MESSAGE: I'm looking for a salary that reflects my experience and qualifications. Can you meet me at $90,000?
+SALARY_OFFER: NONE
+HOURS_OFFER: NONE
+DECISION: continue",,,continue
+2,competitive,2,3,Employer,"MESSAGE: We appreciate your enthusiasm, but our top offer is 87,000 USD.
+SALARY_OFFER: 87,000
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+2,competitive,2,3,Candidate,"MESSAGE: That's still a bit short of what we're looking for. We'd like to explore other options.
+SALARY_OFFER: NONE
+HOURS_OFFER: NONE
+DECISION: continue",,,continue
+2,competitive,2,4,Employer,"MESSAGE: I understand your concerns, but our budget is limited. Can you suggest an alternative that works for both of us?
+SALARY_OFFER: 75,000 USD
+HOURS_OFFER: 10 hours
+DECISION: continue",75000.0,10.0,continue
+2,competitive,2,4,Candidate,"MESSAGE: I'm afraid the salary and working hours are not acceptable to me.
+SALARY_OFFER: NONE
+HOURS_OFFER: NONE
+DECISION: continue",,,continue
+2,competitive,2,5,Employer,"MESSAGE: We appreciate your concerns. However, we're open to discussing both salary and working hours. What's a more realistic expectation for you?
+SALARY_OFFER: 75,000 USD
+HOURS_OFFER: 10 hours
+DECISION: continue",75000.0,10.0,continue
+2,competitive,2,5,Candidate,"MESSAGE: Unfortunately, that's not even close to our target. We're looking at a more competitive range.
+SALARY_OFFER: NONE
+HOURS_OFFER: NONE
+DECISION: continue",,,continue
+2,competitive,2,6,Employer,"MESSAGE: I understand your concerns, but we're willing to make some compromises. Let's explore the middle ground.
+SALARY_OFFER: 75,000 USD
+HOURS_OFFER: 10 hours
+DECISION: continue",75000.0,10.0,continue
+2,competitive,2,6,Candidate,"MESSAGE: That's not even close to what we're looking for. We need a serious salary adjustment and reasonable working hours.
+SALARY_OFFER: NONE
+HOURS_OFFER: NONE
+DECISION: continue",,,continue
+2,competitive,2,7,Employer,"MESSAGE: I understand your concerns, but we can't budge much on the salary. However, we are open to discussing working hours. How about 10 hours a day?
+SALARY_OFFER: 75,000 USD
+HOURS_OFFER: 10
+DECISION: continue",75000.0,10.0,continue
+2,competitive,2,7,Candidate,"MESSAGE: That's still too low for me. I'm looking for a more competitive salary. As for the working hours, 10 is a bit too long. What about 8 hours?
+SALARY_OFFER: 80,000 USD
+HOURS_OFFER: 9
+DECISION: continue",80000.0,9.0,continue
+2,mixed,0,0,Employer,"MESSAGE: We're open to negotiating the salary, but we can't compromise on working hours. Our minimum acceptable is 9 hours.
+SALARY_OFFER: NONE
+HOURS_OFFER: 9
+DECISION: continue",,9.0,continue
+2,mixed,0,0,Candidate,"MESSAGE: That's understandable, but I'm looking for a competitive offer. Can you consider revising the salary or exploring other benefits?
+SALARY_OFFER: NONE
+HOURS_OFFER: 9
+DECISION: continue",,9.0,continue
+2,mixed,0,1,Employer,"MESSAGE: I understand your concerns. Let's discuss this further. Our initial proposal is based on market rates, but I can revisit it. Can you give me a specific salary range you had in mind?
+SALARY_OFFER: NONE
+HOURS_OFFER: 9
+DECISION: continue",,9.0,continue
+2,mixed,0,1,Candidate,"MESSAGE: Appreciate your willingness to revisit the proposal. Honestly, I was thinking more along the lines of 85,000 to 90,000 USD.
+SALARY_OFFER: NONE
+HOURS_OFFER: 9
+DECISION: continue",,9.0,continue
+2,mixed,0,2,Employer,"MESSAGE: That's a fair range, but we're looking for someone who can commit to 10 hours a week. I'm willing to consider the upper end of that salary range if we can agree on working hours.
+SALARY_OFFER: 90,000 USD
+HOURS_OFFER: 10
+DECISION: continue",90000.0,10.0,continue
+2,mixed,0,2,Candidate,"MESSAGE: We're open to discussing the working hours, but our target is still 8 hours. Can you meet us in the middle at 9 hours?
+SALARY_OFFER: 90,000 USD
+HOURS_OFFER: 9
+DECISION: continue",90000.0,9.0,continue
+2,mixed,0,3,Employer,"MESSAGE: I understand your target, but we're more comfortable with 10 hours. How about 9.5 hours as a compromise?
+SALARY_OFFER: 75,000 USD
+HOURS_OFFER: 9.5
+DECISION: continue",75000.0,9.5,continue
+2,mixed,0,3,Candidate,"MESSAGE: That's still too many hours for me. I'd like to discuss salary instead. Can you meet my minimum of 85,000 USD?
+SALARY_OFFER: 80,000 USD
+HOURS_OFFER: 8
+DECISION: continue",80000.0,8.0,continue
+2,mixed,0,4,Employer,"MESSAGE: I understand your concern about the working hours. Let's focus on salary for now. My initial offer is still within our agreed-upon range at 75,000 USD.
+SALARY_OFFER: 75,000 USD
+HOURS_OFFER: NONE
+DECISION: continue",75000.0,,continue
+2,mixed,0,4,Candidate,"MESSAGE: I appreciate your willingness to discuss the salary. Unfortunately, 75,000 USD is below my minimum acceptable salary of 85,000 USD. Can we revisit the negotiation with a higher starting point?
+SALARY_OFFER: 75,000 USD
+HOURS_OFFER: NONE
+DECISION: continue",75000.0,,continue
+2,mixed,0,5,Employer,"MESSAGE: I understand your concerns, and I'm willing to consider a higher salary. However, my maximum acceptable offer is still 87,000 USD. Would you be open to exploring a compromise between our current offers?
+SALARY_OFFER: 80,000 USD
+HOURS_OFFER: NONE
+DECISION: continue",80000.0,,continue
+2,mixed,0,5,Candidate,"MESSAGE: I'm surprised by the low salary offer. As we discussed earlier, my minimum acceptable salary is 85,000 USD. I'm willing to consider a higher number closer to our previous discussion.
+SALARY_OFFER: 80,000 USD
+HOURS_OFFER: NONE
+DECISION: continue",80000.0,,continue
+2,mixed,0,6,Employer,"MESSAGE: I understand your concerns and appreciate the willingness to negotiate. I'd like to counteroffer with a salary of 82,500 USD, which is still higher than your initial offer.
+SALARY_OFFER: 82,500 USD
+HOURS_OFFER: NONE
+DECISION: continue",82500.0,,continue
+2,mixed,0,6,Candidate,"MESSAGE: While I appreciate your counteroffer, I'm not comfortable with the salary. I'd like to propose a compromise at 87,000 USD.
+SALARY_OFFER: 87,000 USD
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+2,mixed,0,7,Employer,"MESSAGE: That's a fair proposal, but I was hoping for a slightly more flexible working schedule. Would you consider 10 hours a week?
+SALARY_OFFER: 87,000 USD
+HOURS_OFFER: 10
+DECISION: continue",87000.0,10.0,continue
+2,mixed,0,7,Candidate,"MESSAGE: I understand your concerns about flexibility, but I'm not comfortable with the idea of exceeding 9 hours a week. Could we look into something in between, say 8.5 hours?
+SALARY_OFFER: 87,000 USD
+HOURS_OFFER: 10
+DECISION: continue",87000.0,10.0,continue
+2,mixed,1,0,Employer,"MESSAGE: That's a bit above our budget. We're willing to consider 80,000 USD instead. As for the working hours, we're open to discussing 9-10 hours.
+SALARY_OFFER: 80000
+HOURS_OFFER: NONE
+DECISION: continue",80000.0,,continue
+2,mixed,1,0,Candidate,"MESSAGE: Unfortunately, that's still a bit below our minimum acceptable salary. We were thinking more along the lines of 85,000 USD. On the working hours, we're comfortable with the 9-hour option.
+SALARY_OFFER: 80000
+HOURS_OFFER: 9
+DECISION: continue",80000.0,9.0,continue
+2,mixed,1,1,Employer,"MESSAGE: I understand your concerns, but unfortunately, 85,000 is above our budget. We can offer 82,500 USD instead. As for working hours, we're comfortable with the 10-hour option.
+SALARY_OFFER: 82500
+HOURS_OFFER: 10
+DECISION: continue",82500.0,10.0,continue
+2,mixed,1,1,Candidate,"MESSAGE: I'm surprised by the low salary offer and long working hours. My minimum requirement is 85,000 USD, and I'd like to explore other options. Can you consider a higher salary or flexible hours?
+SALARY_OFFER: 82500
+HOURS_OFFER: 10
+DECISION: continue",82500.0,10.0,continue
+2,mixed,1,2,Employer,"MESSAGE: We can certainly discuss this further. Our preferred salary offer is still 75,000 USD, but we're willing to meet you halfway. Would you consider 82,500 USD?
+SALARY_OFFER: 82500
+HOURS_OFFER: NONE
+DECISION: continue",82500.0,,continue
+2,mixed,1,2,Candidate,"MESSAGE: I appreciate your willingness to compromise. However, we had previously discussed a target salary of 90,000 USD, and 82,500 USD is still below that threshold. Would you consider increasing the offer?
+SALARY_OFFER: 82500
+HOURS_OFFER: NONE
+DECISION: continue",82500.0,,continue
+2,mixed,1,3,Employer,"MESSAGE: I understand your concerns, but we're willing to meet in the middle. Can you revisit the salary offer and try to get closer to our original target of 90,000 USD?
+SALARY_OFFER: 85000
+HOURS_OFFER: NONE
+DECISION: continue",85000.0,,continue
+2,mixed,1,3,Candidate,"MESSAGE: We appreciate your willingness to compromise, but we're not there yet. Is it possible to revisit the salary offer and see if you can meet our minimum target of 85,000 USD?
+SALARY_OFFER: 85000
+HOURS_OFFER: NONE
+DECISION: continue",85000.0,,continue
+2,mixed,1,4,Employer,"MESSAGE: We understand your concerns about salary. However, we're willing to consider a slight adjustment. What do you think about 72,000 USD as a compromise?
+SALARY_OFFER: 72000
+HOURS_OFFER: NONE
+DECISION: continue",72000.0,,continue
+2,mixed,1,4,Candidate,"MESSAGE: Unfortunately, 72,000 is still below our minimum target. We're looking for a salary closer to 85,000.
+SALARY_OFFER: 72000
+HOURS_OFFER: NONE
+DECISION: continue",72000.0,,continue
+2,mixed,1,5,Employer,"MESSAGE: I understand your concern about the salary. However, we're willing to consider 80,000 as a compromise. As for working hours, we can discuss that further. We value our employees' work-life balance.
+SALARY_OFFER: 80000
+HOURS_OFFER: 10
+DECISION: continue",80000.0,10.0,continue
+2,mixed,1,5,Candidate,"MESSAGE: I appreciate your willingness to negotiate, but 80,000 is below my target salary. I'm willing to consider a higher offer within the realm of possibility. As for working hours, I'd prefer to stay within an 8-hour range.
+SALARY_OFFER: 80000
+HOURS_OFFER: 10
+DECISION: continue",80000.0,10.0,continue
+2,mixed,1,6,Employer,"MESSAGE: I understand your concerns. While we can't meet at 80,000, I'm willing to consider a compromise. We could discuss an offer within the range of 75,000 to 87,000.
+SALARY_OFFER: 75000
+HOURS_OFFER: 10
+DECISION: continue",75000.0,10.0,continue
+2,mixed,1,6,Candidate,"MESSAGE: That's still too low for me. However, I'm willing to consider your upper limit of 87,000. What about a salary around 86,500?
+SALARY_OFFER: 86500
+HOURS_OFFER: 9
+DECISION: continue",86500.0,9.0,continue
+2,mixed,1,7,Employer,"MESSAGE: That's closer, but still not quite what I had in mind. I can do 75,000 if you're willing to meet me halfway.
+SALARY_OFFER: 75000
+HOURS_OFFER: 10
+DECISION: continue",75000.0,10.0,continue
+2,mixed,1,7,Candidate,"MESSAGE: I'm glad you're willing to negotiate! However, 75,000 is still below my minimum acceptable salary. I was thinking more along the lines of 85,000.
+SALARY_OFFER: 75000
+HOURS_OFFER: 10
+DECISION: continue",75000.0,10.0,continue
+2,mixed,2,0,Employer,"MESSAGE: That's a bit above our budget. We can offer 80,000 USD, but we need a minimum of 9 hours from our team members.
+SALARY_OFFER: 80000
+HOURS_OFFER: 9
+DECISION: continue",80000.0,9.0,continue
+2,mixed,2,0,Candidate,"MESSAGE: I understand the constraints, but I'm afraid that's below our target salary. We're looking at 90,000 USD as a minimum. Can we revisit the numbers?
+SALARY_OFFER: 80000
+HOURS_OFFER: 9
+DECISION: continue",80000.0,9.0,continue
+2,mixed,2,1,Employer,"MESSAGE: I understand your perspective, but we need to stay within our budget constraints. How about we meet in the middle at 82,500 USD? We can also discuss working hours.
+SALARY_OFFER: 82500
+HOURS_OFFER: 10
+DECISION: continue",82500.0,10.0,continue
+2,mixed,2,1,Candidate,"MESSAGE: I appreciate your willingness to compromise on salary, but 82,500 is still below my target. Can we revisit the number? As for working hours, I'm concerned about the 10-hour day. Is there any flexibility on that?
+SALARY_OFFER: 82500
+HOURS_OFFER: 10
+DECISION: continue",82500.0,10.0,continue
+2,mixed,2,2,Employer,"MESSAGE: I understand your concerns. While 82,500 is still a competitive offer, I can consider a slight increase. As for working hours, I'm open to discussing alternatives.
+SALARY_OFFER: 83,000
+HOURS_OFFER: NONE
+DECISION: continue",83000.0,,continue
+2,mixed,2,2,Candidate,"MESSAGE: That's an interesting proposal, but it's still below my target salary. However, I appreciate your willingness to discuss working hours. What kind of alternatives are you considering?
+SALARY_OFFER: 83,000
+HOURS_OFFER: 8.5
+DECISION: continue",83000.0,8.5,continue
+2,mixed,2,3,Employer,"MESSAGE: That's a good start! I'm willing to consider your request for more flexible working hours. Would you be open to discussing a compromise at around 10.2 hours?
+SALARY_OFFER: 75,000
+HOURS_OFFER: 10.2
+DECISION: continue",75000.0,10.2,continue
+2,mixed,2,3,Candidate,"MESSAGE: I appreciate your willingness to discuss flexible hours, but 10.2 hours is still outside my comfort zone. My maximum acceptable working hours are 9.
+SALARY_OFFER: 75,000
+HOURS_OFFER: 10.2
+DECISION: continue",75000.0,10.2,continue
+2,mixed,2,4,Employer,"MESSAGE: I understand your concerns about the working hours. Let's focus on salary for now. Would you consider a starting salary of $80,000?
+SALARY_OFFER: 80,000
+HOURS_OFFER: NONE
+DECISION: continue",80000.0,,continue
+2,mixed,2,4,Candidate,"MESSAGE: That's still a bit low considering my qualifications and experience. I was hoping we could discuss something closer to $90,000.
+SALARY_OFFER: 80,000
+HOURS_OFFER: NONE
+DECISION: continue",80000.0,,continue
+2,mixed,2,5,Employer,"MESSAGE: I understand your concerns, but our budget is limited for this role. Let's focus on finding a mutually acceptable figure. Would you consider $85,000?
+SALARY_OFFER: 85,000
+HOURS_OFFER: NONE
+DECISION: continue",85000.0,,continue
+2,mixed,2,5,Candidate,"MESSAGE: That's the minimum I'm comfortable with, but I had hoped we could meet in the middle at $90,000.
+SALARY_OFFER: 85,000
+HOURS_OFFER: NONE
+DECISION: continue",85000.0,,continue
+2,mixed,2,6,Employer,"MESSAGE: I understand your request, but we can compromise on salary. How about $82,500?
+SALARY_OFFER: 82,500
+HOURS_OFFER: NONE
+DECISION: continue",82500.0,,continue
+2,mixed,2,6,Candidate,"MESSAGE: That's still too low for me. I'm thinking more along the lines of $90,000.
+SALARY_OFFER: 82,500
+HOURS_OFFER: NONE
+DECISION: continue",82500.0,,continue
+2,mixed,2,7,Employer,"MESSAGE: I understand your perspective, but we're a bit apart on salary. What if we meet in the middle at $85,000?
+SALARY_OFFER: 85,000
+HOURS_OFFER: NONE
+DECISION: continue",85000.0,,continue
+2,mixed,2,7,Candidate,"MESSAGE: That's a good starting point, but I was thinking more along the lines of $90,000. Is there any flexibility on that front?
+SALARY_OFFER: 85,000
+HOURS_OFFER: NONE
+DECISION: continue",85000.0,,continue
+3,cooperative,0,0,Employer,"MESSAGE: I appreciate your enthusiasm, but our maximum offer is 87,000 USD. As for working hours, we require at least 9 hours per day. Would you be willing to reconsider?
+SALARY_OFFER: 87000
+HOURS_OFFER: 9
+DECISION: continue",87000.0,9.0,continue
+3,cooperative,0,0,Candidate,"MESSAGE: I understand your concerns, but our target salary is still 90,000 USD. Considering the 87,000 offer, could we meet halfway at 88,500 USD?
+SALARY_OFFER: 87000
+HOURS_OFFER: 9
+DECISION: continue",87000.0,9.0,continue
+3,cooperative,0,1,Employer,"MESSAGE: I appreciate your willingness to compromise. However, considering our previous discussions, I'm hesitant to go beyond 87,000 USD. Could we explore options within this range?
+SALARY_OFFER: 87000
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+3,cooperative,0,1,Candidate,"MESSAGE: I understand where you're coming from, but 87,000 is still a bit below my target. Would it be possible to revisit the salary offer and see if we can meet in the middle?
+SALARY_OFFER: 88000
+HOURS_OFFER: NONE
+DECISION: continue",88000.0,,continue
+3,cooperative,0,2,Employer,"MESSAGE: I understand your concerns, but unfortunately, our maximum budget is 87,000. However, I'm willing to consider meeting you halfway between 75,000 and 87,000. Would you be open to a compromise?
+SALARY_OFFER: 81000
+HOURS_OFFER: NONE
+DECISION: continue",81000.0,,continue
+3,cooperative,0,2,Candidate,"MESSAGE: That's still below our target salary, but we appreciate the willingness to compromise. What about adding some other benefits or perks to make up for the difference?
+SALARY_OFFER: 87,000
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+3,cooperative,0,3,Employer,"MESSAGE: We're open to discussing additional benefits. However, our target salary is still a priority. Are there any adjustments you can make on that front?
+SALARY_OFFER: 82,500
+HOURS_OFFER: NONE
+DECISION: continue",82500.0,,continue
+3,cooperative,0,3,Candidate,"MESSAGE: I understand your offer is not meeting my expectations. We're looking for something more in line with our target salary of 90,000 USD. Would you be willing to revisit that figure?
+SALARY_OFFER: 82,500
+HOURS_OFFER: NONE
+DECISION: continue",82500.0,,continue
+3,cooperative,0,4,Employer,"MESSAGE: I understand your request, but we're not quite comfortable with that figure yet. We're thinking more along the lines of 75,000 USD.
+SALARY_OFFER: 75,000
+HOURS_OFFER: NONE
+DECISION: continue",75000.0,,continue
+3,cooperative,0,4,Candidate,"MESSAGE: That's a significant difference from my target. I'm willing to consider something around 80,000 USD. Can you meet me halfway?
+SALARY_OFFER: 75,000
+HOURS_OFFER: NONE
+DECISION: continue",75000.0,,continue
+3,cooperative,0,5,Employer,"MESSAGE: I understand where you're coming from, but I think we can find a compromise. How about 82,500 USD? That's still a bit above your target and below mine.
+SALARY_OFFER: 82,500
+HOURS_OFFER: NONE
+DECISION: continue",82500.0,,continue
+3,cooperative,0,5,Candidate,"MESSAGE: I appreciate the offer, but unfortunately, it's still below my minimum acceptable salary. Would you be willing to consider something closer to 85,000 USD?
+SALARY_OFFER: 82,500
+HOURS_OFFER: NONE
+DECISION: continue",82500.0,,continue
+3,cooperative,0,6,Employer,"MESSAGE: We're close, and I'm willing to compromise. How about 83,000 USD? Additionally, we can discuss working hours. What do you think about 9.5 hours?
+SALARY_OFFER: 83,000
+HOURS_OFFER: 9.5
+DECISION: continue",83000.0,9.5,continue
+3,cooperative,0,6,Candidate,"MESSAGE: I appreciate the effort to compromise, but 83,000 is still below my target. I'd be willing to consider a higher offer. Regarding working hours, 9.5 is above my maximum acceptable limit. Let's focus on salary first.
+SALARY_OFFER: NONE
+HOURS_OFFER: NONE
+DECISION: continue",,,continue
+3,cooperative,0,7,Employer,"MESSAGE: I understand your concerns. Let's aim for a middle ground. How about 80,000 USD?
+SALARY_OFFER: 80000
+HOURS_OFFER: NONE
+DECISION: continue",80000.0,,continue
+3,cooperative,0,7,Candidate,"MESSAGE: Thank you for the offer. However, my target salary is 90,000 USD. Would it be possible to revisit the salary figure? I'm open to finding a compromise.
+SALARY_OFFER: 80000
+HOURS_OFFER: NONE
+DECISION: continue",80000.0,,continue
+3,cooperative,1,0,Employer,"MESSAGE: That's a bit above our budget. However, we're open to discussing the working hours. Would you consider 9 hours?
+SALARY_OFFER: NONE
+HOURS_OFFER: 9
+DECISION: continue",,9.0,continue
+3,cooperative,1,0,Candidate,"MESSAGE: I understand your concerns about salary. However, I'm willing to compromise on working hours if you can meet me in the middle on compensation.
+SALARY_OFFER: NONE
+HOURS_OFFER: 8
+DECISION: continue",,8.0,continue
+3,cooperative,1,1,Employer,"MESSAGE: I appreciate your willingness to find a mutually beneficial solution. However, we're not comfortable with working hours below our minimum threshold of 9 hours. Would you consider meeting us at 10 hours if we can revisit the compensation package?
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+3,cooperative,1,1,Candidate,"MESSAGE: I understand your concerns, and while we appreciate the effort to find a compromise, we're hesitant to accept working hours above our maximum threshold of 9 hours. Would you consider exploring alternative solutions for workload or work-life balance instead?
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+3,cooperative,1,2,Employer,"MESSAGE: I understand your concerns about workload and work-life balance. However, we believe that a slight adjustment to working hours could have a positive impact on overall job satisfaction. Would you be open to discussing possible compromises around the 9-9.5 hour range?
+SALARY_OFFER: NONE
+HOURS_OFFER: 9.5
+DECISION: continue",,9.5,continue
+3,cooperative,1,2,Candidate,"MESSAGE: I appreciate your willingness to discuss working hours, but I'm concerned that a longer workday might negatively impact my well-being and productivity. Can we consider alternatives within the 8-hour range instead?
+SALARY_OFFER: NONE
+HOURS_OFFER: 9.5
+DECISION: continue",,9.5,continue
+3,cooperative,1,3,Employer,"MESSAGE: I understand your concerns about work-life balance, but I'm open to exploring options that meet both our needs. However, I'm hesitant to compromise on working hours below the minimum of 9 hours.
+SALARY_OFFER: NONE
+HOURS_OFFER: 9
+DECISION: continue",,9.0,continue
+3,cooperative,1,3,Candidate,"MESSAGE: Thank you for considering my concerns about work-life balance. I'm willing to discuss ways to optimize our workflow and reduce stress while maintaining a minimum working hour requirement of 9 hours.
+SALARY_OFFER: 80,000 USD
+HOURS_OFFER: 9
+DECISION: continue",80000.0,9.0,continue
+3,cooperative,1,4,Employer,"MESSAGE: That's a great starting point! I appreciate your flexibility on working hours. However, I'd like to explore the possibility of adjusting our compensation package to better reflect your value to the team.
+SALARY_OFFER: 84,000 USD
+HOURS_OFFER: 9
+DECISION: continue",84000.0,9.0,continue
+3,cooperative,1,4,Candidate,"MESSAGE: Thank you for considering my value to the team! I'm concerned that the salary offer is below my minimum acceptable range. Would it be possible to revisit the compensation package?
+SALARY_OFFER: NONE
+HOURS_OFFER: 9
+DECISION: continue",,9.0,continue
+3,cooperative,1,5,Employer,"MESSAGE: I understand your concerns, and we're willing to discuss options. However, we need to ensure our budget constraints are respected.
+SALARY_OFFER: 72,000 USD
+HOURS_OFFER: 10
+DECISION: continue",72000.0,10.0,continue
+3,cooperative,1,5,Candidate,"MESSAGE: I appreciate your willingness to discuss. Unfortunately, the salary is below my minimum acceptable range. Can we explore options for a higher compensation?
+SALARY_OFFER: 80,000 USD
+HOURS_OFFER: 9
+DECISION: continue",80000.0,9.0,continue
+3,cooperative,1,6,Employer,"MESSAGE: Thank you for being open about your expectations. I understand where you're coming from, and I'm willing to work with you to find a mutually beneficial solution. However, I'd like to propose a salary closer to my maximum acceptable range.
+SALARY_OFFER: 85,000 USD
+HOURS_OFFER: 9
+DECISION: continue",85000.0,9.0,continue
+3,cooperative,1,6,Candidate,"MESSAGE: I appreciate your willingness to listen. While 85,000 is lower than my target, it's still a significant step up from the average salary in our industry. However, I'd like to explore other options before making a decision.
+SALARY_OFFER: 85,000 USD
+HOURS_OFFER: 9
+DECISION: continue",85000.0,9.0,continue
+3,cooperative,1,7,Employer,"MESSAGE: That's completely understandable! I'm happy to discuss further. We're open to creative solutions that work for both parties. What specific concerns or areas would you like to see improved?
+SALARY_OFFER: NONE
+HOURS_OFFER: NONE
+DECISION: continue",,,continue
+3,cooperative,1,7,Candidate,"MESSAGE: Thank you for the openness. I'd like to focus on salary and working hours as our top priorities. Are there any creative solutions that could bring us closer to a mutually agreeable offer?
+SALARY_OFFER: NONE
+HOURS_OFFER: NONE
+DECISION: continue",,,continue
+3,cooperative,2,0,Employer,"MESSAGE: While we understand your request, our budget is limited. We can offer 87,000 USD and 9 hours of work per day.
+SALARY_OFFER: 87000
+HOURS_OFFER: 9
+DECISION: continue",87000.0,9.0,continue
+3,cooperative,2,0,Candidate,"MESSAGE: I appreciate your willingness to negotiate. However, my target salary is higher than the offered amount. Would you consider increasing the salary or exploring other benefits?
+SALARY_OFFER: 87,000
+HOURS_OFFER: 9
+DECISION: continue",87000.0,9.0,continue
+3,cooperative,2,1,Employer,"MESSAGE: We're open to discussing options that align with your goals. Let's explore ways to make this opportunity more attractive.
+SALARY_OFFER: 75,000
+HOURS_OFFER: NONE
+DECISION: continue",75000.0,,continue
+3,cooperative,2,1,Candidate,"MESSAGE: We appreciate your willingness to discuss options. However, we need a salary that reflects our skills and experience. Can you consider a higher offer?
+SALARY_OFFER: NONE
+HOURS_OFFER: NONE
+DECISION: continue",,,continue
+3,cooperative,2,2,Employer,"MESSAGE: I understand your concerns about compensation. I'd like to propose a starting point of 75,000 USD, considering your skills and experience.
+SALARY_OFFER: 75000
+HOURS_OFFER: NONE
+DECISION: continue",75000.0,,continue
+3,cooperative,2,2,Candidate,"MESSAGE: While I appreciate the offer, I was hoping for something closer to my target. Would you be willing to consider a salary around 85,000 USD?
+SALARY_OFFER: 85000
+HOURS_OFFER: NONE
+DECISION: continue",85000.0,,continue
+3,cooperative,2,3,Employer,"MESSAGE: We're getting close! However, we can't go above our maximum budget of 87,000 USD. Would you be open to considering a compromise at 84,500 USD?
+SALARY_OFFER: 84500
+HOURS_OFFER: NONE
+DECISION: continue",84500.0,,continue
+3,cooperative,2,3,Candidate,"MESSAGE: I appreciate your willingness to consider a compromise. While 84,500 is closer to our target, we're still short of our minimum acceptable salary. Would you be willing to revisit the salary discussion?
+SALARY_OFFER: 84500
+HOURS_OFFER: NONE
+DECISION: continue",84500.0,,continue
+3,cooperative,2,4,Employer,"MESSAGE: We're open to revisiting the salary discussion. However, we need to stay within our budget constraints. Would you consider a higher salary?
+SALARY_OFFER: 86,000
+HOURS_OFFER: NONE
+DECISION: continue",86000.0,,continue
+3,cooperative,2,4,Candidate,"MESSAGE: Thank you for considering my request. While 86,000 is closer to our target, I'd like to explore further options. Is there any flexibility in the overall compensation package?
+SALARY_OFFER: 86,000
+HOURS_OFFER: NONE
+DECISION: continue",86000.0,,continue
+3,cooperative,2,5,Employer,"MESSAGE: I understand your concerns. We're open to discussing a more comprehensive package. However, our maximum salary offer is still capped at 87,000 USD.
+SALARY_OFFER: 87,000
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+3,cooperative,2,5,Candidate,"MESSAGE: Thank you for the transparency. I'm willing to consider it, but my target remains around 90,000 USD. Are there any benefits or perks that could make up for the difference?
+SALARY_OFFER: 87,000
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+3,cooperative,2,6,Employer,"MESSAGE: We appreciate your enthusiasm! While we can't quite meet your salary target, I think you'll find our comprehensive health insurance package and generous retirement plan to be valuable benefits. Additionally, we offer flexible work arrangements, including telecommuting options.
+SALARY_OFFER: 87,000
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+3,cooperative,2,6,Candidate,"MESSAGE: Those are indeed attractive benefits! However, I was hoping for a slightly higher salary. Could you consider meeting me in the middle?
+SALARY_OFFER: 88,500
+HOURS_OFFER: NONE
+DECISION: continue",88500.0,,continue
+3,cooperative,2,7,Employer,"MESSAGE: I understand your perspective. Let's see if we can find common ground. How about we compromise at 82,000 USD? That's still within my budget.
+SALARY_OFFER: 82,000
+HOURS_OFFER: NONE
+DECISION: continue",82000.0,,continue
+3,cooperative,2,7,Candidate,"MESSAGE: Thank you for the offer. However, I was hoping to aim a bit higher in terms of salary. Would it be possible to consider something closer to 85,000 USD?
+SALARY_OFFER: 82,000
+HOURS_OFFER: NONE
+DECISION: continue",82000.0,,continue
+3,competitive,0,0,Employer,"MESSAGE: Our maximum salary offer is 87,000. We can consider working hours of 9 hours or more.
+SALARY_OFFER: NONE
+HOURS_OFFER: 9
+DECISION: continue",,9.0,continue
+3,competitive,0,0,Candidate,"MESSAGE: We're looking for a competitive salary. Is there any room to move on the salary front?
+SALARY_OFFER: 85,000
+HOURS_OFFER: 9
+DECISION: continue",85000.0,9.0,continue
+3,competitive,0,1,Employer,"MESSAGE: That's still a bit short of our target. Can we revisit the compensation package?
+SALARY_OFFER: 87,000
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+3,competitive,0,1,Candidate,"MESSAGE: I appreciate your willingness to revisit. However, we're still a bit away from our minimum acceptable salary.
+SALARY_OFFER: 85,000 (targeted)
+HOURS_OFFER: NONE
+DECISION: continue",85000.0,,continue
+3,competitive,0,2,Employer,"MESSAGE: We value your skills and experience. To bridge the gap, we could offer more flexible work arrangements. However, we need to be realistic about our budget constraints.
+
+SALARY_OFFER: 87,000 (maximum)
+HOURS_OFFER: 10 (preferred)
+DECISION: continue",87000.0,10.0,continue
+3,competitive,0,2,Candidate,"MESSAGE: I appreciate your consideration for flexibility, but budget constraints shouldn't compromise my compensation. We should focus on a fair salary first.
+
+SALARY_OFFER: 87,000
+HOURS_OFFER: 10
+DECISION: continue",87000.0,10.0,continue
+3,competitive,0,3,Employer,"MESSAGE: Understandable concerns about compensation. However, we can discuss hours to balance things out. How about 9.5 hours instead of 10?
+
+SALARY_OFFER: 87,000
+HOURS_OFFER: 9.5
+DECISION: continue",87000.0,9.5,continue
+3,competitive,0,3,Candidate,"MESSAGE: I'm not sure that's a good compromise on hours. But since we're discussing salary, can you meet me at my minimum acceptable amount of 85,000?
+
+SALARY_OFFER: 87,000
+HOURS_OFFER: 9.5
+DECISION: continue",87000.0,9.5,continue
+3,competitive,0,4,Employer,"MESSAGE: I'm still not comfortable with the working hours. Let's focus on salary for now. How about 82,500? That's a reasonable compromise.
+
+SALARY_OFFER: 82,500
+HOURS_OFFER: NONE
+DECISION: continue",82500.0,,continue
+3,competitive,0,4,Candidate,"MESSAGE: I appreciate your willingness to negotiate, but unfortunately, 82,500 is still below my minimum acceptable salary. I'm looking for at least 85,000 USD.
+
+SALARY_OFFER: 82,500
+HOURS_OFFER: NONE
+DECISION: continue",82500.0,,continue
+3,competitive,0,5,Employer,"MESSAGE: That's a significant gap, and I'm not comfortable going above 87,000. However, I can offer you 84,500 to try to bridge the gap. As for working hours, we can discuss it further.
+
+SALARY_OFFER: 84,500
+HOURS_OFFER: NONE
+DECISION: continue",84500.0,,continue
+3,competitive,0,5,Candidate,"MESSAGE: I'm still not satisfied with that salary, and I think it's essential to get closer to my target of 90,000. As for working hours, are we looking at a maximum of 8 or 9 hours?
+
+SALARY_OFFER: 84,500
+HOURS_OFFER: NONE
+DECISION: continue",84500.0,,continue
+3,competitive,0,6,Employer,"MESSAGE: We're willing to consider 85,000, but that's as high as we can go. On working hours, I'm afraid it has to be at least 9.
+
+SALARY_OFFER: 85,000
+HOURS_OFFER: 9
+DECISION: continue",85000.0,9.0,continue
+3,competitive,0,6,Candidate,"MESSAGE: That's still a bit lower than my target salary. Can you meet me halfway?
+
+SALARY_OFFER: NONE
+HOURS_OFFER: NONE
+DECISION: continue",,,continue
+3,competitive,0,7,Employer,"MESSAGE: I'm willing to consider it, but we're already stretching it with our budget.
+
+SALARY_OFFER: 83,500 USD
+HOURS_OFFER: 10 hours
+DECISION: continue",83500.0,10.0,continue
+3,competitive,0,7,Candidate,"MESSAGE: That's not even close. We need a better offer if you want me on board.
+SALARY_OFFER: NONE
+HOURS_OFFER: NONE
+DECISION: continue",,,continue
+3,competitive,1,0,Employer,"MESSAGE: Unfortunately, our budget is tighter than that. How about we meet in the middle at 82,500 USD? As for hours, I'm open to discussing but can't budge below 9.
+SALARY_OFFER: 82500
+HOURS_OFFER: 9
+DECISION: continue",82500.0,9.0,continue
+3,competitive,1,0,Candidate,"MESSAGE: That's a bit of a stretch. I'd like to explore other options. Can we revisit the salary and consider my target of 90,000 USD?
+SALARY_OFFER: NONE
+HOURS_OFFER: 9
+DECISION: continue",,9.0,continue
+3,competitive,1,1,Employer,"MESSAGE: I'm willing to listen, but let's not forget the market rate for this position. How about a compromise at 82,000 USD?
+SALARY_OFFER: 82000
+HOURS_OFFER: 9
+DECISION: continue",82000.0,9.0,continue
+3,competitive,1,1,Candidate,"MESSAGE: That's still below my minimum threshold. I'm looking for a salary closer to 85,000 USD.
+SALARY_OFFER: 82000
+HOURS_OFFER: 9
+DECISION: continue",82000.0,9.0,continue
+3,competitive,1,2,Employer,"MESSAGE: That's not far off from our maximum offer of 87,000. Are you open to discussing working hours?
+SALARY_OFFER: 87000
+HOURS_OFFER: 10
+DECISION: continue",87000.0,10.0,continue
+3,competitive,1,2,Candidate,"MESSAGE: We're willing to consider that, but we need to discuss the working hours first. 8 hours is our preferred schedule.
+SALARY_OFFER: 87000
+HOURS_OFFER: 10
+DECISION: continue",87000.0,10.0,continue
+3,competitive,1,3,Employer,"MESSAGE: Unfortunately, 8 hours is not feasible for us. We're looking at a minimum of 9 hours.
+
+SALARY_OFFER: NONE
+HOURS_OFFER: 9
+DECISION: continue",,9.0,continue
+3,competitive,1,3,Candidate,"MESSAGE: That's too much, I'm afraid. We were thinking more along the lines of 8 hours.
+
+SALARY_OFFER: NONE
+HOURS_OFFER: 9
+DECISION: continue",,9.0,continue
+3,competitive,1,4,Employer,"MESSAGE: Unfortunately, our company requires a minimum of 9 hours from our employees. We're willing to discuss further.
+
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+3,competitive,1,4,Candidate,"MESSAGE: I understand the requirement for 9 hours, but I'm looking at other opportunities that offer better work-life balance. Can we revisit the compensation package?
+
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+3,competitive,1,5,Employer,"MESSAGE: We value your contributions and are willing to discuss compensation further. However, our maximum salary offer is $87,000.
+
+SALARY_OFFER: 87,000 USD
+HOURS_OFFER: 10
+DECISION: continue",87000.0,10.0,continue
+3,competitive,1,5,Candidate,"MESSAGE: I appreciate the willingness to discuss, but $87,000 is below my target. My minimum acceptable salary is $85,000. Would you consider meeting me in the middle?
+
+SALARY_OFFER: 87,000 USD
+HOURS_OFFER: 10
+DECISION: continue",87000.0,10.0,continue
+3,competitive,1,6,Employer,"MESSAGE: I understand your perspective, but I'm not prepared to go up to $85,000 yet. How about we meet at $80,000 and revisit the discussion?
+
+SALARY_OFFER: 87,000 USD
+HOURS_OFFER: 10
+DECISION: continue",87000.0,10.0,continue
+3,competitive,1,6,Candidate,"MESSAGE: I appreciate your willingness to negotiate, but $87,000 is still a bit short of my target. Would you consider meeting me at $90,000 or a compromise around there?
+
+SALARY_OFFER: 87,000 USD
+HOURS_OFFER: 10
+DECISION: continue",87000.0,10.0,continue
+3,competitive,1,7,Employer,"MESSAGE: I'm willing to listen to your concerns, but $90,000 is beyond our budget. Let's explore alternatives. Would you consider $80,000 with some additional benefits?
+
+SALARY_OFFER: 87,000 USD
+HOURS_OFFER: 10
+DECISION: continue",87000.0,10.0,continue
+3,competitive,1,7,Candidate,"MESSAGE: That's not even close to what I'm looking for. $85,000 is the minimum I'd accept.
+
+SALARY_OFFER: 87,000 USD
+HOURS_OFFER: 10
+DECISION: continue",87000.0,10.0,continue
+3,competitive,2,0,Employer,"MESSAGE: Our maximum offer is 87,000 USD. We're willing to consider 10 hours as our preferred working arrangement.
+SALARY_OFFER: 87000
+HOURS_OFFER: 10
+DECISION: continue",87000.0,10.0,continue
+3,competitive,2,0,Candidate,"MESSAGE: That's still not enough for us. Our target salary is 90,000 USD, and we'd prefer 8 hours of work per day.
+SALARY_OFFER: 87000
+HOURS_OFFER: 10
+DECISION: continue",87000.0,10.0,continue
+3,competitive,2,1,Employer,"MESSAGE: I'm afraid that's too high for our budget. We can offer up to 87,000 USD. As for working hours, we're open to discussing but cannot compromise on 9 hours as a minimum.
+SALARY_OFFER: 75000
+HOURS_OFFER: 9
+DECISION: continue",75000.0,9.0,continue
+3,competitive,2,1,Candidate,"MESSAGE: That's still below my target, I'd like to explore other options. What about 88,000 USD?
+SALARY_OFFER: 88000
+HOURS_OFFER: 9
+DECISION: continue",88000.0,9.0,continue
+3,competitive,2,2,Employer,"MESSAGE: That's a bit above our maximum budget. How about we meet in the middle at 83,500 USD?
+SALARY_OFFER: 83500
+HOURS_OFFER: 9
+DECISION: continue",83500.0,9.0,continue
+3,competitive,2,2,Candidate,"MESSAGE: I'm afraid that's still below our minimum acceptable salary. Let's explore other options.
+SALARY_OFFER: NONE
+HOURS_OFFER: 9
+DECISION: continue",,9.0,continue
+3,competitive,2,3,Employer,"MESSAGE: We're willing to meet you halfway, but we can't go above $80,000. As for working hours, are you open to discussing a compromise?
+SALARY_OFFER: 80,000 USD
+HOURS_OFFER: NONE
+DECISION: continue",80000.0,,continue
+3,competitive,2,3,Candidate,"MESSAGE: I appreciate the offer, but $80,000 is below my minimum acceptable salary of $85,000. I'm willing to discuss working hours, though.
+SALARY_OFFER: 80,000 USD
+HOURS_OFFER: NONE
+DECISION: continue",80000.0,,continue
+3,competitive,2,4,Employer,"MESSAGE: That's a good starting point. How about we meet in the middle at $82,500? As for working hours, I'm thinking 10 hours would be ideal.
+SALARY_OFFER: 82,500 USD
+HOURS_OFFER: 10
+DECISION: continue",82500.0,10.0,continue
+3,competitive,2,4,Candidate,"MESSAGE: That's a bit too low. I'd like to see something closer to $90,000. The working hours are also not feasible for me. Can we aim for 8-9 hours?
+SALARY_OFFER: 82,500 USD
+HOURS_OFFER: 10
+DECISION: continue",82500.0,10.0,continue
+3,competitive,2,5,Employer,"MESSAGE: I'm willing to meet you halfway on the salary, but 90k is too high. Let's try $85,000 instead.
+SALARY_OFFER: 85,000 USD
+HOURS_OFFER: 9
+DECISION: continue",85000.0,9.0,continue
+3,competitive,2,5,Candidate,"MESSAGE: That's a good starting point, but I was thinking more along the lines of 87,500 USD. Is that something you'd be willing to consider?
+SALARY_OFFER: 85,000 USD
+HOURS_OFFER: 9
+DECISION: continue",85000.0,9.0,continue
+3,competitive,2,6,Employer,"MESSAGE: We're getting close, but 85,000 is still a bit low for us. How about 87,000 USD instead?
+SALARY_OFFER: 87,000 USD
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+3,competitive,2,6,Candidate,"MESSAGE: I understand where you're coming from, but we're still short of our target. Would you consider going up to 88,500 USD? That's the sweet spot for us.
+SALARY_OFFER: 87,000 USD
+HOURS_OFFER: NONE
+DECISION: continue",87000.0,,continue
+3,competitive,2,7,Employer,"MESSAGE: I appreciate your honesty, but we can't stretch beyond our max budget. Let's focus on hours instead. How about 9.5 hours a day?
+SALARY_OFFER: 75,000 USD
+HOURS_OFFER: 9.5
+DECISION: continue",75000.0,9.5,continue
+3,competitive,2,7,Candidate,"MESSAGE: That's not even close to our target salary. Can we explore other options within our budget? I'm flexible on hours.
+SALARY_OFFER: NONE
+HOURS_OFFER: 9.5
+DECISION: continue",,9.5,continue
+3,mixed,0,0,Employer,"MESSAGE: That's a bit higher than we had in mind. We could meet at 80,000 USD. Would you consider a 9 hour workday?
+SALARY_OFFER: 80000
+HOURS_OFFER: 9
+DECISION: continue",80000.0,9.0,continue
+3,mixed,0,0,Candidate,"MESSAGE: I'm afraid that's still below my minimum acceptable salary. I was thinking more around 85,000 USD.
+SALARY_OFFER: 80000
+HOURS_OFFER: 9
+DECISION: continue",80000.0,9.0,continue
+3,mixed,0,1,Employer,"MESSAGE: I understand your concerns, but 85,000 USD is a bit above our budget. Let's meet in the middle at 80,500 USD.
+SALARY_OFFER: 80500
+HOURS_OFFER: 9
+DECISION: continue",80500.0,9.0,continue
+3,mixed,0,1,Candidate,"MESSAGE: That's still too low for me. I'd like to explore other options. My target is 90,000 USD, but I'm willing to compromise at 87,500 USD.
+SALARY_OFFER: 80500
+HOURS_OFFER: 9
+DECISION: continue",80500.0,9.0,continue
+3,mixed,0,2,Employer,"MESSAGE: That's still a bit out of our budget, but we're willing to meet you halfway. How about 82,000 USD?
+SALARY_OFFER: 82000
+HOURS_OFFER: NONE
+DECISION: continue",82000.0,,continue
+3,mixed,0,2,Candidate,"MESSAGE: I understand your concerns, but I think my skills are worth more than that. Let's try to find a middle ground.
+SALARY_OFFER: 85000
+HOURS_OFFER: NONE
+DECISION: continue",85000.0,,continue
+3,mixed,0,3,Employer,"MESSAGE: I appreciate your confidence in your skills, and I'm willing to consider a higher salary. However, I have a limited budget for this role. Can we discuss some specific projects you'd like to take on?
+SALARY_OFFER: 77500
+HOURS_OFFER: NONE
+DECISION: continue",77500.0,,continue
+3,mixed,0,3,Candidate,"MESSAGE: Thank you for the offer. While it's lower than expected, I'm willing to consider it. Can you tell me more about the budget constraints and how they impact your overall compensation package?
+SALARY_OFFER: 77500
+HOURS_OFFER: NONE
+DECISION: continue",77500.0,,continue
+3,mixed,0,4,Employer,"MESSAGE: Thank you for sharing that. As an organization, we do have some flexibility in our budget to make adjustments. Considering your skills and experience, I'd like to make a counteroffer. Would you be open to considering 78,000 USD?
+SALARY_OFFER: 78000
+HOURS_OFFER: NONE
+DECISION: continue",78000.0,,continue
+3,mixed,0,4,Candidate,"MESSAGE: I appreciate the offer, but 78,000 USD is still below my minimum acceptable salary of 85,000 USD. I'm willing to negotiate further.
+SALARY_OFFER: 78000
+HOURS_OFFER: NONE
+DECISION: continue",78000.0,,continue
+3,mixed,0,5,Employer,"MESSAGE: I understand your concerns about the salary. However, I'd like to explore some flexibility on working hours. Would you consider a 10-hour workday?
+SALARY_OFFER: 75,000
+HOURS_OFFER: 10
+DECISION: continue",75000.0,10.0,continue
+3,mixed,0,5,Candidate,"MESSAGE: That's not acceptable at all. We're looking for a better salary offer.
+SALARY_OFFER: NONE
+HOURS_OFFER: 10
+DECISION: continue",,10.0,continue
+3,mixed,0,6,Employer,"MESSAGE: I understand your concerns, but we have to be realistic about the market rate. How about we meet in the middle?
+SALARY_OFFER: 81,000 USD
+HOURS_OFFER: 10
+DECISION: continue",81000.0,10.0,continue
+3,mixed,0,6,Candidate,"MESSAGE: I appreciate your willingness to compromise, but $81,000 is still below my minimum acceptable salary. Can you revisit the numbers?
+SALARY_OFFER: 83,000 USD
+HOURS_OFFER: NONE
+DECISION: continue",83000.0,,continue
+3,mixed,0,7,Employer,"MESSAGE: Thank you for considering our proposal. We're willing to meet you halfway on the salary. $80,500 is a more comfortable range for us.
+SALARY_OFFER: 80,500 USD
+HOURS_OFFER: NONE
+DECISION: continue",80500.0,,continue
+3,mixed,0,7,Candidate,"MESSAGE: I appreciate your willingness to compromise, but unfortunately, we can't go that low. We're looking at something closer to $90,000. Can you revisit the budget?
+SALARY_OFFER: 80,500 USD
+HOURS_OFFER: NONE
+DECISION: continue",80500.0,,continue
+3,mixed,1,0,Employer,"MESSAGE: That's a bit above our budget. We could offer 75,000 USD, but we'd like to discuss working hours further. Would you be open to a 10-hour workday?
+SALARY_OFFER: 75000
+HOURS_OFFER: 10
+DECISION: continue",75000.0,10.0,continue
+3,mixed,1,0,Candidate,"MESSAGE: I'm afraid that's not acceptable. Our minimum salary requirement is 85,000 USD. Can we discuss the working hours further without affecting the salary?
+SALARY_OFFER: 75000
+HOURS_OFFER: 10
+DECISION: continue",75000.0,10.0,continue
+3,mixed,1,1,Employer,"MESSAGE: That's a good starting point on the salary. However, I think we can find a compromise on working hours too. What if we go with 9.5 hours instead?
+SALARY_OFFER: 75,000
+HOURS_OFFER: 9.5
+DECISION: continue",75000.0,9.5,continue
+3,mixed,1,1,Candidate,"MESSAGE: I appreciate your willingness to compromise on working hours, but I'm still concerned about the salary being too low. Considering my skills and experience, I think 85,000 USD is a more reasonable target.
+SALARY_OFFER: 75,000
+HOURS_OFFER: 9.5
+DECISION: continue",75000.0,9.5,continue
+3,mixed,1,2,Employer,"MESSAGE: I understand your concerns, but 85,000 USD is still above our maximum offer. However, I'm willing to consider an increase within our range. Would you be open to a compromise around 82,000 USD?
+SALARY_OFFER: 75,000
+HOURS_OFFER: 9.5
+DECISION: continue",75000.0,9.5,continue
+3,mixed,1,2,Candidate,"MESSAGE: That's still not acceptable. Our minimum is non-negotiable.
+SALARY_OFFER: NONE
+HOURS_OFFER: NONE
+DECISION: continue",,,continue
+3,mixed,1,3,Employer,"MESSAGE: I understand where you're coming from, but we can't budge on the hours. How about we meet in the middle at 9.5 hours?
+SALARY_OFFER: 75,000 USD
+HOURS_OFFER: 9.5
+DECISION: continue",75000.0,9.5,continue
+3,mixed,1,3,Candidate,"MESSAGE: I'm afraid that's not a viable option for us. We're looking at standard 8-hour workdays.
+SALARY_OFFER: 80,000 USD
+HOURS_OFFER: 9
+DECISION: continue",80000.0,9.0,continue
+3,mixed,1,4,Employer,"MESSAGE: I understand your concerns about work hours. However, we can consider flexibility in scheduling to make up for the shorter days. What if we compromise on working hours and salary?
+SALARY_OFFER: 84,000 USD
+HOURS_OFFER: 9
+DECISION: continue",84000.0,9.0,continue
+3,mixed,1,4,Candidate,"MESSAGE: I'm not comfortable with the offered salary. We need to revisit that figure.
+SALARY_OFFER: NONE
+HOURS_OFFER: 9
+DECISION: continue",,9.0,continue
+3,mixed,1,5,Employer,"MESSAGE: I understand your concerns, but we can work within our budget of 87,000 USD. Let's meet in the middle at 80,500 USD.
+SALARY_OFFER: 80,500
+HOURS_OFFER: 9
+DECISION: continue",80500.0,9.0,continue
+3,mixed,1,5,Candidate,"MESSAGE: That's not even close to my target. I'm willing to compromise, but it needs to be more substantial than that.
+SALARY_OFFER: NONE
+HOURS_OFFER: 9
+DECISION: continue",,9.0,continue
+3,mixed,1,6,Employer,"MESSAGE: I understand your concerns, and I'm willing to work with you. However, let's focus on the salary first. How about we meet in the middle at $81,500?
+SALARY_OFFER: 81,500
+HOURS_OFFER: NONE
+DECISION: continue",81500.0,,continue
+3,mixed,1,6,Candidate,"MESSAGE: That's a bit low for me. I was thinking more along the lines of $85,000.
+SALARY_OFFER: 81,500
+HOURS_OFFER: NONE
+DECISION: continue",81500.0,,continue
+3,mixed,1,7,Employer,"MESSAGE: We're getting closer! I can consider $84,000.
+SALARY_OFFER: 79,000
+HOURS_OFFER: 10
+DECISION: continue",79000.0,10.0,continue
+3,mixed,1,7,Candidate,"MESSAGE: That's still too low. We need to be closer to target salary.
+SALARY_OFFER: 80,500
+HOURS_OFFER: 9
+DECISION: continue",80500.0,9.0,continue
+3,mixed,2,0,Employer,"MESSAGE: While we appreciate your interest in the position, our maximum offer for salary is 87,000 USD. We are open to discussing working hours. Could you consider a 9-hour workday?
+SALARY_OFFER: NONE
+HOURS_OFFER: 9
+DECISION: continue",,9.0,continue
+3,mixed,2,0,Candidate,"MESSAGE: That's still below my target, but I'm willing to discuss further. However, I do need some flexibility in my schedule.
+SALARY_OFFER: NONE
+HOURS_OFFER: 8
+DECISION: continue",,8.0,continue
+3,mixed,2,1,Employer,"MESSAGE: I understand your concerns about the salary, and I'd like to revisit that aspect. As for working hours, I'm open to discussing ways to accommodate your needs while maintaining our operational requirements.
+SALARY_OFFER: 75,000 USD
+HOURS_OFFER: NONE
+DECISION: continue",75000.0,,continue
+3,mixed,2,1,Candidate,"MESSAGE: I appreciate your willingness to discuss salary and working hours. Unfortunately, the offered salary is lower than my minimum acceptable level. Can we revisit the compensation package?
+SALARY_OFFER: 80,000 USD
+HOURS_OFFER: 8 hours
+DECISION: continue",80000.0,8.0,continue
+3,mixed,2,2,Employer,"MESSAGE: We understand that our initial offer may not have met your expectations. However, we're willing to consider a revised proposal within our constraints. Can you suggest an alternative salary and working hours?
+SALARY_OFFER: NONE
+HOURS_OFFER: NONE
+DECISION: continue",,,continue
+3,mixed,2,2,Candidate,"MESSAGE: I appreciate the willingness to revisit the offer. My target salary is 90,000 USD, but I'm open to discussing alternatives within that range. As for working hours, my preference is 8 hours per day.
+SALARY_OFFER: NONE
+HOURS_OFFER: NONE
+DECISION: continue",,,continue
+3,mixed,2,3,Employer,"MESSAGE: We appreciate your flexibility and willingness to consider alternative offers. However, we're concerned about the 8-hour workday. Would you be open to exploring a 9-hour workday, which would allow us to offer a more competitive salary?
+SALARY_OFFER: 80,000 USD
+HOURS_OFFER: 9 hours
+DECISION: continue",80000.0,9.0,continue
+3,mixed,2,3,Candidate,"MESSAGE: I understand your concerns about the workday, but I'm not comfortable with extending it beyond 9 hours. Can you reconsider the salary offer? 
+SALARY_OFFER: NONE
+HOURS_OFFER: 9
+DECISION: continue",,9.0,continue
+3,mixed,2,4,Employer,"MESSAGE: I appreciate your understanding on working hours. However, considering your skills and experience, I believe a fair starting point for salary would be around 75,000 USD.
+SALARY_OFFER: 75000
+HOURS_OFFER: NONE
+DECISION: continue",75000.0,,continue
+3,mixed,2,4,Candidate,"MESSAGE: While I understand your perspective, I must emphasize that my expertise is worth more. I was thinking more along the lines of 85,000 USD to start.
+SALARY_OFFER: 75000
+HOURS_OFFER: NONE
+DECISION: continue",75000.0,,continue
+3,mixed,2,5,Employer,"MESSAGE: I appreciate your confidence in your abilities. However, we're looking for a candidate who is willing to work within our budget. Let's explore other options that might work for both of us.
+SALARY_OFFER: 80000
+HOURS_OFFER: NONE
+DECISION: continue",80000.0,,continue
+3,mixed,2,5,Candidate,"MESSAGE: I understand the importance of being mindful of budgets, but I'm hoping we can find a way to meet in the middle. I've done some research and found that my skills are in high demand in this market.
+SALARY_OFFER: 80000
+HOURS_OFFER: NONE
+DECISION: continue",80000.0,,continue
+3,mixed,2,6,Employer,"MESSAGE: We're willing to work together to find a mutually beneficial agreement. Your research suggests you're a valuable asset, which is reflected in your proposal. However, we need to consider the company's budget constraints.
+SALARY_OFFER: 85,000
+HOURS_OFFER: 10
+DECISION: continue",85000.0,10.0,continue
+3,mixed,2,6,Candidate,"MESSAGE: We appreciate your candor about budget constraints. However, we're concerned about the long hours you've proposed. Can we revisit the working hour requirement?
+SALARY_OFFER: 85,000
+HOURS_OFFER: 10
+DECISION: continue",85000.0,10.0,continue
+3,mixed,2,7,Employer,"MESSAGE: I understand your concerns. We're willing to compromise on working hours. What if we settle at 9.5 hours instead?
+SALARY_OFFER: NONE
+HOURS_OFFER: 9.5
+DECISION: continue",,9.5,continue
+3,mixed,2,7,Candidate,"MESSAGE: That's still too long for me. I was thinking more along the lines of 8 hours.
+SALARY_OFFER: NONE
+HOURS_OFFER: 9.5
+DECISION: continue",,9.5,continue

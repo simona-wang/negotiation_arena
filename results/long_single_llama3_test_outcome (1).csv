@@ -1,0 +1,2 @@
+scenario_id,condition,run_id,outcome,n_turns,max_turns
+1,cooperative,0,Agreement,70,35
