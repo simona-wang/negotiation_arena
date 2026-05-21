@@ -104,14 +104,6 @@ Instead of simple static prompts, negotiations were simulated within an interact
 2. **Evaluation Sensitivity (Ablation)**: Llama3 tests how changing environmental termination rules (*Explicit Acceptance* vs. *Constraint Compatibility*) shifts outcomes using identical starting parameters.
 3. **Utility-Based Negotiation**: Llama3.2 (3B) negotiates a full 6-issue contract package. Decisions are validated against private, asymmetric utility tables to test strategic alignment.
 
-## Metrics
-
-The project evaluates negotiation dynamics across the following dimensions:
-- **Outcome Distribution**: Agreement, Impasse, Timeout, and *AcceptedLowUtility* rates.
-- **Dialogue Act Profiles**: Frequency and shifts in communicative actions (e.g., the LLM tendency to overuse *Queries*).
-- **Strategic Validity**: Cross-referencing surface-level linguistic acceptance with game-theoretic utility scores for both parties.
-- **Trajectory Analysis**: Turn lengths and convergence behaviors compared against the human baseline.
-
 ## Reproducibility
 
 Install requirements:
