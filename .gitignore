@@ -6,7 +6,6 @@ __pycache__/
 .env
 .cache/
 .DS_Store
-data/raw/
 notebooks/archive/
 results/llm_outcomes_colab.csv
 results/llm_turns_colab.csv
