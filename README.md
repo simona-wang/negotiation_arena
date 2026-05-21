@@ -47,7 +47,10 @@ results/
 └── long_single_llama3_test_outcome.csv
 
 ```
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/simona-wang/negotiation_arena/blob/main/notebooks/utility_based_multiissue_llama32_colab.ipynb)
+* **Utility-Based Framework**: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/simona-wang/negotiation_arena/blob/main/colab_experiments/utility_based_multiissue_llama32_colab.ipynb)
+* **Compatibility Experiments**: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/simona-wang/negotiation_arena/blob/main/colab_experiments/controlled_llama3_compatibility_colab.ipynb)
+* **Explicit Acceptance Experiments**: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/simona-wang/negotiation_arena/blob/main/colab_experiments/controlled_llama3_explicit_colab_1.ipynb)
+* **Human-Seeded Continuation**: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/simona-wang/negotiation_arena/blob/main/colab_experiments/human_seeded_tinyllama_continuation_colab.ipynb)
 
 ## Research Question
 
