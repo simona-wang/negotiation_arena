@@ -82,47 +82,36 @@ results/
 
 ## Research Question
 
-How do cooperative, competitive, and mixed negotiation styles influence the outcomes and dynamics of LLM-based multi-agent negotiations?
+How do LLM agents behave in negotiation settings compared with human negotiators, and how sensitive are their outcomes to prompting, utility constraints, and termination rules?
 
 ## Project Structure
 
 - `data/raw/`: original Negochat dataset
-- `data/processed/`: processed human negotiation baseline
-- `data/scenarios/`: synthetic negotiation scenarios and experimental conditions
-- `notebooks/`: exploratory analysis, simulations, and final comparison
-- `src/`: reusable Python modules
-- `results/`: generated CSV files, plots, and tables
+- `data/processed/`: processed human negotiation baseline (dialogue acts and issues dataframes)
+- `data/scenarios/`: synthetic negotiation scenarios and utility configuration tables
+- `notebooks/`: exploratory data analysis, LLM agent simulation loops, and final cross-experiment comparison
+- `src/`: reusable Python modules for parsing, evaluation, and plotting
+- `results/`: generated CSV files, figures, and distribution plots
 
 ## Dataset
 
-The human baseline is based on the Negochat corpus, a set of human-agent job negotiation dialogues annotated with dialogue acts such as Offer, Accept, Reject, Query, Greet, and Quit.
+The human baseline is based on the **Negochat corpus**, a set of human-agent job negotiation dialogues collected via a Wizard-of-Oz methodology. The dataset is structured into 4,993 processed rows annotated with dialogue acts (*Offer*, *Accept*, *Reject*, *Query*, *Greet*, *Quit*) and contract dimensions (*Job description*, *Salary*, *Working hours*, *Pension fund*, *Leased car*, *Promotion possibilities*).
 
-## LLM Simulation
+## LLM Simulation Framework
 
-LLM negotiations were simulated using TinyLlama/TinyLlama-1.1B-Chat-v1.0 on Google Colab with GPU acceleration.
+Instead of simple static prompts, negotiations were simulated within an interactive multi-agent arena involving a **Candidate** and an **Employer** agent. The framework covers three distinct experimental pipelines:
 
-Each simulation involved two agents:
-
-- Candidate
-- Employer
-
-The agents negotiated salary and working hours under three experimental conditions:
-
-- cooperative
-- competitive
-- mixed
+1. **Human-Seeded Continuation**: TinyLlama is initialized with the first substantive human act from Negochat to evaluate trajectory and dialogue-act preservation.
+2. **Evaluation Sensitivity (Ablation)**: Llama3 tests how changing environmental termination rules (*Explicit Acceptance* vs. *Constraint Compatibility*) shifts outcomes using identical starting parameters.
+3. **Utility-Based Negotiation**: Llama3.2 (3B) negotiates a full 6-issue contract package. Decisions are validated against private, asymmetric utility tables to test strategic alignment.
 
 ## Metrics
 
-The project evaluates:
-
-- agreement rate
-- negotiation length
-- timeout rate
-- salary offers
-- working hours offers
-- human vs LLM negotiation differences
-- qualitative negotiation patterns
+The project evaluates negotiation dynamics across the following dimensions:
+- **Outcome Distribution**: Agreement, Impasse, Timeout, and *AcceptedLowUtility* rates.
+- **Dialogue Act Profiles**: Frequency and shifts in communicative actions (e.g., the LLM tendency to overuse *Queries*).
+- **Strategic Validity**: Cross-referencing surface-level linguistic acceptance with game-theoretic utility scores for both parties.
+- **Trajectory Analysis**: Turn lengths and convergence behaviors compared against the human baseline.
 
 ## Reproducibility
 
