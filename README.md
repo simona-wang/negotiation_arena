@@ -47,6 +47,7 @@ results/
 └── long_single_llama3_test_outcome.csv
 
 ```
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/simona-wang/negotiation_arena/blob/main/notebooks/utility_based_multiissue_llama32_colab.ipynb)
 
 ## Research Question
 
