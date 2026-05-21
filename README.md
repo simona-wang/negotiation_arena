@@ -21,43 +21,13 @@ Colab was used mainly for the generation phase:
 
 The final analysis notebook does not regenerate the LLM outputs. Instead, it loads the generated CSV files from `results/` and performs the analysis from there.
 
-### Model choices
+### Model Choices
 
-Different Llama-family models were used depending on the computational requirements of each experiment.
+Different language models were deployed depending on the computational and architectural requirements of each experimental pipeline:
 
-#### Llama3 with Ollama
-
-The controlled negotiation experiments were run with `llama3` through Ollama. This setup was used for the explicit-acceptance and compatibility-based evaluation experiments because Llama3 provided better instruction-following ability and more stable negotiation text than smaller models.
-
-The controlled experiments investigate how the same negotiation setting changes depending on the rule used to define agreement:
-
-- **Explicit acceptance only**: a run is classified as `Agreement` only if the model explicitly produces an acceptance decision.
-- **Compatibility-based evaluator**: a run is classified as `Agreement` if the environment detects an offer compatible with both agents’ constraints.
-
-These experiments were used to show that LLM negotiation outcomes are highly sensitive to the evaluation rule.
-
-#### Llama3.2 3B with Ollama
-
-The utility-based multi-issue experiment was run with `llama3.2:3b` through Ollama. This model was chosen because the full utility-based experiment was computationally heavier: agents had to negotiate complete contract packages across multiple issues, and each proposed package had to be parsed and evaluated through private utility tables.
-
-A larger Llama3 model was tested, but generation time was too high for the available Colab runtime. Therefore, `llama3.2:3b` was used as a practical compromise between model quality and runtime feasibility.
-
-The utility-based experiment evaluates whether explicit acceptance corresponds to a mutually beneficial agreement. It uses the following contract issues:
-
-- job description;
-- salary;
-- working hours;
-- pension fund;
-- leased car;
-- promotion possibilities.
-
-Each proposed package is scored using candidate and employer utility tables.
-
-#### TinyLlama for the human-seeded experiment
-
-The human-seeded continuation experiment was run with TinyLlama through Hugging Face Transformers. This was used because the experiment required many dialogue continuations starting from real Negochat contexts, and TinyLlama was lightweight enough to run efficiently in Colab.
-
-The purpose of this experiment is not to compare model quality directly with Llama3. Instead, it tests whether a small LLM can continue a real negotiation trajectory from a Negochat dialogue act. The experiment is therefore used mainly for dialogue continuation, outcome-level comparison, and dialogue-act behavior.
+* **Llama3 (Ollama)**: Deployed for the controlled negotiation experiments (*Explicit Acceptance* vs. *Compatibility*). It was selected for its superior instruction-following abilities and text stability across iterative, multi-turn interactions.
+* **Llama3.2 3B (Ollama)**: Deployed for the utility-based multi-issue experiment. It provided a practical compromise between generation quality and runtime speed on Google Colab, successfully managing the workload of negotiating complete 6-issue contract packages evaluated against private utility tables.
+* **TinyLlama (Hugging Face)**: Used for the human-seeded continuation experiment. Its lightweight architecture allowed for the efficient simulation of multiple dialogue continuations starting directly from real Negochat conversational contexts without hitting hardware constraints.
 
 ### Stored result files
 
