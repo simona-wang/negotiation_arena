@@ -8,19 +8,17 @@ The work is based on Project 3: The Negotiation Arena. The goal is to study how 
 
 This project combines a local analysis pipeline with several LLM generation notebooks executed on Google Colab. The final analysis is designed to be reproducible from the stored CSV files in the `results/` directory, without requiring the user to rerun the LLM simulations.
 
-### Why Google Colab was used
+### Why Google Colab Was Used
 
-The LLM simulations were run on Google Colab because local hardware was not sufficient to run all model generations efficiently. Some experiments required repeated LLM calls across several scenarios, negotiation conditions, and runs. Running these experiments locally would have been slow and unreliable, while Colab provided a more practical environment for executing model-based simulations.
+Google Colab was leveraged to bypass local hardware limitations during the intensive LLM generation phase. The experiments required repetitive, multi-turn model inference loops across several scenarios, prompting conditions, and runs, making local execution computationally unfeasible.
 
-Colab was used mainly for the generation phase:
+Colab was restricted exclusively to the **generation pipeline**:
+* Defining the negotiation parameters and scenarios.
+* Executing the active LLM agent dialogue loops.
+* Extracting conversation turns and structural decisions.
+* Saving and exporting the final execution tracks as CSV logs.
 
-1. loading or defining the negotiation setup;
-2. running the selected LLM model;
-3. generating turns and outcomes;
-4. saving the generated outputs as CSV files.
-
-The final analysis notebook does not regenerate the LLM outputs. Instead, it loads the generated CSV files from `results/` and performs the analysis from there.
-
+The main analysis notebook operates entirely offline, loading these pre-generated CSV files directly from the `results/` directory to ensure fast, predictable local reproducibility.
 ### Model Choices
 
 Different language models were deployed depending on the computational and architectural requirements of each experimental pipeline:
