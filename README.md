@@ -88,7 +88,6 @@ How do LLM agents behave in negotiation settings compared with human negotiators
 
 - `data/raw/`: original Negochat dataset
 - `data/processed/`: processed human negotiation baseline (dialogue acts and issues dataframes)
-- `data/scenarios/`: synthetic negotiation scenarios and utility configuration tables
 - `notebooks/`: exploratory data analysis, LLM agent simulation loops, and final cross-experiment comparison
 - `src/`: reusable Python modules for parsing, evaluation, and plotting
 - `results/`: generated CSV files, figures, and distribution plots
