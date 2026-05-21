@@ -22,8 +22,6 @@ def compute_transition_matrix(df: pd.DataFrame, act_col: str = "act") -> pd.Data
 
 def infer_human_outcome(group):
     """
-    Infer a simple human negotiation outcome from dialogue acts.
-
     A dialogue is classified as Agreement if it contains at least one Accept act,
     Failure if it contains a Quit act and no Accept act, and Unresolved otherwise.
     """
@@ -40,8 +38,6 @@ def infer_human_outcome(group):
 
 def infer_human_outcome_refined(group, final_window=3):
     """
-    Infer a refined human negotiation outcome from dialogue acts.
-
     FinalAgreement means that an Accept act appears in the final turns.
     PartialOrIntermediateAccept means that Accept appears, but not near the end.
     """
