@@ -1,8 +1,16 @@
+# Data Analysis & Manipulation
 pandas
 numpy
+
+# Data Visualization
 matplotlib
 seaborn
+jinja2
+
+# Development Environment
 jupyter
+
+# Machine Learning & LLM Ecosystem
 transformers
 torch
 accelerate
