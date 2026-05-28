@@ -9,7 +9,7 @@ The work is based on Project 3: The Negotiation Arena. The goal is to study how 
 This project combines a local analysis pipeline with several LLM generation notebooks executed on Google Colab. The final analysis is designed to be reproducible from the stored CSV files in the `results/` directory, without requiring the user to rerun the LLM simulations.
 
 * **Utility-Based Framework**: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/simona-wang/negotiation_arena/blob/main/colab_experiments/utility_based_multiissue_llama32_colab.ipynb)
-* **Compatibility Experiments**: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/simona-wang/negotiation_arena/blob/main/colab_experiments/controlled_llama3_compatibility_colab.ipynb)
+* **Compatibility Experiments**: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/simona-wang/negotiation_arena/blob/main/colab_experiments/controlled_llama3_compatibility_colab_1.ipynb)
 * **Explicit Acceptance Experiments**: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/simona-wang/negotiation_arena/blob/main/colab_experiments/controlled_llama3_explicit_colab_1.ipynb)
 * **Human-Seeded Continuation**: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/simona-wang/negotiation_arena/blob/main/colab_experiments/human_seeded_tinyllama_continuation_colab.ipynb)
 
